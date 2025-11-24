@@ -3,7 +3,6 @@
 <img src="https://opensearch.org/assets/img/opensearch-logo-themed.svg" height="64px" />
 
 Hi and welcome to **awesome-opensearch** — a community-led resource for OpenSearch practitioners maintained by the team at [BigData Boutique](https://bigdataboutique.com/) — makers of [Pulse - the AI SRE for OpenSearch](https://pulse.support).  
-
 This collection curates links, tools, tutorials, talks, and resources for anyone building with OpenSearch.
 
 Please ⭐ the repo and contribute your favorite finds. 🙏
@@ -13,7 +12,7 @@ Please ⭐ the repo and contribute your favorite finds. 🙏
 ## 📚 Table of Contents
 - [🔗 Official OpenSearch Links](#-official-opensearch-links)
 - [🤝 Upcoming Events](#-upcoming-events)
-- [🎥 OpenSearch Conference Talks](#-opensearch-conference-talks)
+- [🎥 The Ultimate Index of OpenSearchCon Talks](#-the-ultimate-index-of-opensearchcon-talks)
 - [⚙️ Useful Tools](#-useful-tools)
 - [📂 Articles & Resources](#-articles--resources)
 - [📚 Training & Tutorials](#-training--tutorials)
@@ -43,11 +42,9 @@ Please ⭐ the repo and contribute your favorite finds. 🙏
 
 ---
 
-## 🎥 OpenSearch Conference Talks
+## 🎥 The Ultimate Index of OpenSearchCon Talks
 *A curated index of sessions from OpenSearchCon events worldwide — grouped by topic and linked directly to YouTube.*  
 _Last updated: 2025-11-24_
-
-There are so many great OpenSearch talks by so many smart people that get buried somewhere on YouTube. So this is an attempt to make them discoverable again, so you can find exactly what you're looking for. Currently featuring every session from the OpenSearchCon 2025 events.
 
 > Tip: Use the **Talks Navigation** below to jump between categories. Each section includes a “Back to talks navigation” link to quickly return.
 
@@ -70,10 +67,12 @@ Jump to a topic:
 
 _Columns: Title | Speakers | Conference | Summary_
 
-<details>
-<summary>Architecture & Scaling</summary>
 
-## Architecture & Scaling
+### Architecture & Scaling
+
+<details>
+<summary>Architecture & Scaling — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -108,10 +107,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Community / Keynote</summary>
 
-## Community / Keynote
+### Community / Keynote
+
+<details>
+<summary>Community / Keynote — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -133,10 +134,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>General / Other</summary>
 
-## General / Other
+### General / Other
+
+<details>
+<summary>General / Other — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -155,10 +158,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Ingest & Pipelines</summary>
 
-## Ingest & Pipelines
+### Ingest & Pipelines
+
+<details>
+<summary>Ingest & Pipelines — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -167,10 +172,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Monitoring & Observability</summary>
 
-## Monitoring & Observability
+### Monitoring & Observability
+
+<details>
+<summary>Monitoring & Observability — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -201,10 +208,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Neural & Semantic Search</summary>
 
-## Neural & Semantic Search
+### Neural & Semantic Search
+
+<details>
+<summary>Neural & Semantic Search — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -216,10 +225,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Operations Automation</summary>
 
-## Operations Automation
+### Operations Automation
+
+<details>
+<summary>Operations Automation — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -229,10 +240,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>RAG & LLM Integration</summary>
 
-## RAG & LLM Integration
+### RAG & LLM Integration
+
+<details>
+<summary>RAG & LLM Integration — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -334,10 +347,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Security</summary>
 
-## Security
+### Security
+
+<details>
+<summary>Security — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -347,10 +362,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>UX & Product</summary>
 
-## UX & Product
+### UX & Product
+
+<details>
+<summary>UX & Product — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
@@ -359,10 +376,12 @@ _Columns: Title | Speakers | Conference | Summary_
 <p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
 
 </details>
-<details>
-<summary>Vector & Hybrid Search</summary>
 
-## Vector & Hybrid Search
+### Vector & Hybrid Search
+
+<details>
+<summary>Vector & Hybrid Search — Click to expand ↓</summary>
+
 
 | Title | Speakers | Conference | Summary |
 |---|---|---|---|
