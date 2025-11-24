@@ -1,92 +1,487 @@
-👋 Welcome to Awesome OpenSearch
-=============
+# 👋 Welcome to Awesome OpenSearch
 
-<img src="https://opensearch.org/assets/img/opensearch-logo-themed.svg" height="64px">
+<img src="https://opensearch.org/assets/img/opensearch-logo-themed.svg" height="64px" />
 
-Hi and welcome to the awesome-opensearch - a community-led resource for Opensearch lovers maintained by the team at [BigData Boutique](https://bigdataboutique.com/) - makers of [Pulse for Opensearch](https://pulse.support). This is a collection of useful links, resources, articles, tools, forums and more - all related to Opensearch. 
+Hi and welcome to **awesome-opensearch** — a community-led resource for OpenSearch practitioners maintained by the team at [BigData Boutique](https://bigdataboutique.com/) — makers of [Pulse - the AI SRE for OpenSearch](https://pulse.support).  
 
-Please star the repo and contribute if you have any brilliant additions. 🙏
+This collection curates links, tools, tutorials, talks, and resources for anyone building with OpenSearch.
 
-## 🔗 Official Opensearch Links
-* [Opensearch Official Site](https://opensearch.org)
-* [Opensearch Documentation](https://opensearch.org/docs/latest)
-* [Opensearch Forum](https://discuss.opendistrocommunity.dev/)
-* [Opensearch Community Member Directory](https://opensearch.org/community/members/)
-* [Opensearch on LinkedIn](https://www.linkedin.com/company/opensearch-project/)
-* [Opensearch on X (Twitter)](https://x.com/OpenSearchProj)
-* [Opensearch on Slack](https://www.opensearch.org/slack.html)
-* [Opensearch on Mastodon](https://fosstodon.org/@OpenSearchProject)
-* [Opensearch on YouTube](https://www.youtube.com/c/OpenSearchProject)
-* [Opensearch on Facebook](https://www.facebook.com/OpenSearchProject/)
-* [Download Opensearch](https://opensearch.org/downloads.html)
+Please ⭐ the repo and contribute your favorite finds. 🙏
+
+---
+
+## 📚 Table of Contents
+- [🔗 Official OpenSearch Links](#-official-opensearch-links)
+- [🤝 Upcoming Events](#-upcoming-events)
+- [🎥 OpenSearch Conference Talks](#-opensearch-conference-talks)
+- [⚙️ Useful Tools](#-useful-tools)
+- [📂 Articles & Resources](#-articles--resources)
+- [📚 Training & Tutorials](#-training--tutorials)
+- [📂 Helpful Documentation Sections](#-helpful-documentation-sections)
+- [🌍 OpenSearch Ambassadors](#-opensearch-ambassadors)
+- [😊 Managed Services](#-managed-services)
+- [🙏 Contributing](#-contributing)
+
+---
+
+## 🔗 Official OpenSearch Links
+- [OpenSearch Official Site](https://opensearch.org)
+- [OpenSearch Documentation](https://opensearch.org/docs/latest)
+- [OpenSearch Forum](https://discuss.opendistrocommunity.dev/)
+- [OpenSearch Community Member Directory](https://opensearch.org/community/members/)
+- [OpenSearch on LinkedIn](https://www.linkedin.com/company/opensearch-project/)
+- [OpenSearch on X (Twitter)](https://x.com/OpenSearchProj)
+- [OpenSearch on Slack](https://www.opensearch.org/slack.html)
+- [OpenSearch on Mastodon](https://fosstodon.org/@OpenSearchProject)
+- [OpenSearch on YouTube](https://www.youtube.com/c/OpenSearchProject)
+- [Download OpenSearch](https://opensearch.org/downloads.html)
+
+---
+
+## 🤝 Upcoming Events
+- Check out the [calendar of upcoming OpenSearch events](https://opensearch.org/events/)
+
+---
+
+## 🎥 OpenSearch Conference Talks
+*A curated index of sessions from OpenSearchCon events worldwide — grouped by topic and linked directly to YouTube.*  
+_Last updated: 2025-11-24_
+
+There are so many great OpenSearch talks by so many smart people that get buried somewhere on YouTube. So this is an attempt to make them discoverable again, so you can find exactly what you're looking for. Currently featuring every session from the OpenSearchCon 2025 events.
+
+> Tip: Use the **Talks Navigation** below to jump between categories. Each section includes a “Back to talks navigation” link to quickly return.
+
+# The Ultimate Index of OpenSearchCon Talks
+
+## 🔎 Talks Navigation
+Jump to a topic:
+
+- [Architecture & Scaling](#architecture--scaling)
+- [Community / Keynote](#community--keynote)
+- [General / Other](#general--other)
+- [Ingest & Pipelines](#ingest--pipelines)
+- [Monitoring & Observability](#monitoring--observability)
+- [Neural & Semantic Search](#neural--semantic-search)
+- [Operations Automation](#operations-automation)
+- [RAG & LLM Integration](#rag--llm-integration)
+- [Security](#security)
+- [UX & Product](#ux--product)
+- [Vector & Hybrid Search](#vector--hybrid-search)
+
+_Columns: Title | Speakers | Conference | Summary_
+
+<details>
+<summary>Architecture & Scaling</summary>
+
+## Architecture & Scaling
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Develop for Core Performance](https://www.youtube.com/watch?v=s7fqPVypDk0) | Samuel Herman, DataStax | OpenSearchCon Europe 2025 | Develop for Core Performance - Samuel Herman, DataStax I'm breaking down key insights from our latest RFC that's shaping the future of core OpenSearch performance. https://github.com/opensearch-project/OpenSearch/issues/16841 It touch on core fundemental issues that are essential to master to take… |
+| [From Zero To Maintainer: How We Implement Generation of Code for 4 Clients (JS... Torekeldi Niyazbek](https://www.youtube.com/watch?v=wTAVRQDJ5hE) |  | OpenSearchCon Europe 2025 | From Zero To Maintainer: How We Implement Generation of Code for 4 Clients (JS, Ruby, Python, Java) - Torekeldi Niyazbek, DEMETRA SYSTEMS As a Maintainer of the OpenSearch Specification Repository, I’d like to share how we addressed a major challenge in maintaining OpenSearch clients (Ruby, Python,… |
+| [Keynote: The State of OpenSearch User Groups: Building a Global Community](https://www.youtube.com/watch?v=Y_SLYIuAxks) | Kris Freedain | OpenSearchCon Europe 2025 | The State of OpenSearch User Groups: Building a Global Community - Kris Freedain, Amazon Web Services In this talk, OpenSearch Community Manager Kris Freedain shares the journey and insights gained from building OpenSearch's global User Group program. From its humble beginnings following… |
+| [Multi-tenant Workload Management in OpenSearch](https://www.youtube.com/watch?v=7wzqkdSB3_E) | Kaushal Kumar & Kunal Khatua, Amazon | OpenSearchCon Europe 2025 | Multi-tenant Workload Management in OpenSearch - Kaushal Kumar & Kunal Khatua, Amazon Dive deep into OpenSearch workload management and optimize your cluster's performance and resource allocation. This talk is suitable for both seasoned users and newcomers to OpenSearch. We'll cover workload… |
+| [Recreating Production Workload Behavior Is an Art, Not a Science](https://www.youtube.com/watch?v=vMeaAklGFwg) | Ian Hoang & Rishabh Singh | OpenSearchCon Europe 2025 | Recreating Production Workload Behavior Is an Art, Not a Science - Ian Hoang & Rishabh Singh, Amazon Web Services Every OpenSearch workload behaves and evolves differently. Users strive to understand their production workload’s behavior by running performance tests. But this is often done with… |
+| [Transforming Data Aggregation in Opensearch: Achieving 100x Faster Per... Ankit Jain & Sandesh Kumar](https://www.youtube.com/watch?v=wS7vg50Vv0U) |  | OpenSearchCon Europe 2025 | Transforming Data Aggregation in Opensearch: Achieving 100x Faster Performance - Ankit Jain & Sandesh Kumar, AWS Efficient data analysis and visualization heavily rely on the performance of aggregations in Opensearch. However, optimizing the performance of aggregations in the multi-phase and… |
+| [Uber’s Innovations in OpenSearch for a Cloud Native, Serverless... Pallavi Priyadarshini & Yupeng Fu](https://www.youtube.com/watch?v=OTueklAaHKk) |  | OpenSearchCon Europe 2025 | Uber’s Innovations in OpenSearch for a Cloud Native, Serverless Future - Pallavi Priyadarshini, Amazon Web Services & Yupeng Fu, Uber In this session, Uber, a premier member of the OpenSearch Foundation, will share how the unique demands of their low-latency, high-throughput search platform have… |
+| [Reimagining Search : Scaling OpenSearch Across an Enterprise](https://www.youtube.com/watch?v=1BeG8lslB9g) | Platform C... Turja Narayan Chaudhuri | OpenSearchCon India 2025 | Reimagining Search : Scaling OpenSearch Across an Enterprise - Platform Centric Approach - Turja Narayan Chaudhuri, Big4 Consulting Search is no longer just a feature—it’s a critical capability that drives innovation, efficiency, and decision-making across enterprises. However, scaling OpenSearch… |
+| [Taming Your Query Latency](https://www.youtube.com/watch?v=p5DlURGSyyg) | Jason Hinch, Atlassian | OpenSearchCon India 2025 | Taming Your Query Latency - Jason Hinch, Atlassian Struggling to tame the latency of your OpenSearch query? Atlassian was facing the exact problem with a query which had grown organically over a number of years of relevance improvements. Learn how they dove into the internals of OpenSearch to… |
+| [Uber’s Innovations in OpenSearch for a Cloud Native, Serverles... Pallavi Priyadarshini & Charu Jain](https://www.youtube.com/watch?v=0ICYJ0H-FTg) |  | OpenSearchCon India 2025 | Uber’s Innovations in OpenSearch for a Cloud Native, Serverless Future - Pallavi Priyadarshini, AWS & Charu Jain, Uber In this session, Uber, a premier member of the OpenSearch Foundation, will share how the unique demands of their low-latency, high-throughput search platform have driven impactful… |
+| [Keynote: OpenSearch on Kubernetes at Atlassian](https://www.youtube.com/watch?v=3bEbIdU6eOs) | Cameron Stewart, Atlassian | OpenSearchCon Korea 2025 | Keynote: OpenSearch on Kubernetes at Atlassian - Cameron Stewart, Principal Software Engineer, Atlassian At Atlassian Opensearch powers core search functionality across our products. Supporting such critical applications requires a reliable foundation. This talk discusses how we achieve that using… |
+| [A Deep Dive Into OpenSearch Plugin Architecture and Introducing Hot...](https://www.youtube.com/watch?v=8LIiC1evnYM) | Pranav Garg & Aman Kumar | OpenSearchCon NA 2025 | A Deep Dive Into OpenSearch Plugin Architecture and Introducing Hot Reload Functionality - Pranav Garg & Aman Kumar, Amazon Web Services In this talk, we’ll take a deep dive into the service architecture behind OpenSearch plugins and how they integrate with the core services. We’ll then transition… |
+| [Accelerating OpenSearch With Streaming: Apache Arrow, Flight, Data...](https://www.youtube.com/watch?v=SgpuLdpj9LY) | Saurabh Singh & Harsha Vamsi | OpenSearchCon NA 2025 | Accelerating OpenSearch With Streaming: Apache Arrow, Flight, DataFusion and gRPC - Saurabh Singh & Harsha Vamsi, Amazon Web Services As search and analytics workloads scale, OpenSearch needs faster, cloud-native foundations. This talk presents a new streaming framework in OpenSearch, while… |
+| [Advancing OpenSearch With gRPC and Protobuf at Uber: A High-Performance...](https://www.youtube.com/watch?v=E4ZmtDA9G8c) | Karen Xu & Shuyi Zhang | OpenSearchCon NA 2025 | Advancing OpenSearch With gRPC and Protobuf at Uber: A High-Performance API for Modern Search - Karen Xu & Shuyi Zhang, Uber This session explores Uber's integration of gRPC and Protocol Buffers into OpenSearch, introducing a high-performance, strongly-typed communication layer optimized for… |
+| [Beyond the Code: Evolving OpenSearch's Release Process for...](https://www.youtube.com/watch?v=BkC0OWPrRB0) | Jiaxiang Zhu & Sayali Gaikawad | OpenSearchCon NA 2025 | Beyond the Code: Evolving OpenSearch's Release Process for Community Scale - Jiaxiang Zhu & Sayali Gaikawad, Amazon Web Services Releasing in open source isn't just about CI jobs and artifact builds—it's about making the process transparent, accessible, and scalable for everyone. In this talk, we… |
+| [CYOP: Create Your Own Plugin](https://www.youtube.com/watch?v=95_JDSNm-bU) | Gaurav Gupta; Nishtha Mittal & Craig Perkins, Amazon Web Services | OpenSearchCon NA 2025 | CYOP: Create Your Own Plugin - Gaurav Gupta; Nishtha Mittal & Craig Perkins, Amazon Web Services Ever wanted to extend OpenSearch with your own custom functionality? In this hands-on session, we’ll walk through the entire process of building an OpenSearch plugin from scratch, code to deployment.… |
+| [Deep Dive Into OpenSearch Pull-Based Ingestion at Uber](https://www.youtube.com/watch?v=mxUBrl7SR64) | Varun Bharadwaj, Uber & Yupeng Fu, Uber Inc | OpenSearchCon NA 2025 | Deep Dive Into OpenSearch Pull-Based Ingestion at Uber - Varun Bharadwaj, Uber & Yupeng Fu, Uber Inc In this session, Uber, a premier member of the OpenSearch Foundation, will present an in-depth overview of the architecture of the pull-based ingestion feature contributed to OpenSearch. Unlike… |
+| [Digging Into OpenSearch’s Memory: Lucene and JVM Garbage Collection Under the...](https://www.youtube.com/watch?v=QHeWiuBSNDk) | Yeonghyeon Ko | OpenSearchCon NA 2025 | Digging Into OpenSearch’s Memory: Lucene and JVM Garbage Collection Under the Microscope - Yeonghyeon Ko, SK hynix OpenSearch indexing creates short-lived Java objects from Lucene analyzers and field types, which impact heap behavior, GC frequency, and node performance. This session explores how… |
+| [Flexible OpenSearch Data Management With Apache Iceberg: Data...](https://www.youtube.com/watch?v=uCbc7iFM3RE) | Sotaro Hikita & Shuhei Fukami | OpenSearchCon NA 2025 | Flexible OpenSearch Data Management With Apache Iceberg: Data Versioning and Incremental Processing - Sotaro Hikita & Shuhei Fukami, Amazon Web Services Managing data for OpenSearch workloads sometimes requires organizations to rebuild indices, conduct testing with different data versions, and… |
+| [Innovating at Scale: Lessons from Pegasystems' OpenSearch Journey](https://www.youtube.com/watch?v=JB3osBkUAeU) | Amanda Katona & Satya Mishra | OpenSearchCon NA 2025 | Innovating at Scale: Lessons from Pegasystems' OpenSearch Journey - Amanda Katona, NetApp Instaclustr & Satya Mishra, Pegasystems Speakers: Satya Mishra, Amanda Katona How do you scale infrastructure to meet the demands of massive workloads while keeping operations efficient and innovation front… |
+| [Introducing the OCSF Normalization Playground for Preparing Data for...](https://www.youtube.com/watch?v=lMvl4RZtNxU) | Kevin Fallis & Chris Helma | OpenSearchCon NA 2025 | Introducing the OCSF Normalization Playground for Preparing Data for OCSF Pipelines Using Data Prepper - Kevin Fallis, Amazon Web Services & Chris Helma, Alto Pharmacy The OCSF Normalization Playground is a tool that enables developers and security engineers to rapidly create and test… |
+| [Next-Gen Search: How Uber and the OpenSearch Community Built a Cloud Native 3.0- Shubham Gupta, Uber](https://www.youtube.com/watch?v=uj1vP2D0JFM) |  | OpenSearchCon NA 2025 | Next-Gen Search: How Uber and the OpenSearch Community Built a Cloud Native 3.0 - Shubham Gupta, Uber OpenSearch 3.0 marks a major step toward a fully cloud-native, modular search engine architecture. In this session, Uber—an OpenSearch Foundation premier member—shares how the scale and latency… |
+| [OpenSearch Joins a Foundation: A Blueprint for Community-Led Migration- Jiaxiang Zhu & Saurabh Singh](https://www.youtube.com/watch?v=8HpZ4OCy47Q) |  | OpenSearchCon NA 2025 | OpenSearch Joins a Foundation: A Blueprint for Community-Led Migration - Jiaxiang Zhu & Saurabh Singh, Amazon Web Services What does it take to move a large, active open-source project into a new foundation? Spoiler: it's way more than renaming a GitHub org. In this talk, we share how OpenSearch is… |
+| [Operating OpenSearch at Scale: Lessons From Managing 10,000+ Clusters Across...](https://www.youtube.com/watch?v=nqhfKkbj-Lw) | Hariharan Gandhi | OpenSearchCon NA 2025 | Operating OpenSearch at Scale: Lessons From Managing 10,000+ Clusters Across Hyperscalers - Hariharan Gandhi, SAP SE Running OpenSearch as a managed service at massive scale is no small feat. In this session, we’ll explore the architectural and operational strategies behind hosting tens of… |
+| [Scaling OpenSearch: Next-Generation Shard Allo...](https://www.youtube.com/watch?v=8SdT2lNP53c) | Rishab Nahata, Arpit Bandejiya & Himshikha Gupta | OpenSearchCon NA 2025 | Scaling OpenSearch: Next-Generation Shard Allocation for High-Performance Clusters - Rishab Nahata, Arpit Bandejiya & Himshikha Gupta, In large-scale OpenSearch clusters, shard allocation has long been a significant bottleneck, often leading to extended waiting times and potential API timeouts.… |
+| [Sharding 2.0: Unlocking Infinite Search Scalability in OpenSearch](https://www.youtube.com/watch?v=QzNznPIWxK4) | Vikas Bansal & Paras Jain | OpenSearchCon NA 2025 | Sharding 2.0: Unlocking Infinite Search Scalability in OpenSearch - Vikas Bansal & Paras Jain, Amazon Web Services Search systems are hitting a wall. Static sharding causes hotspots, slow queries, and costly overprovisioning. But what if your search infrastructure could evolve in real… |
+| [Work Smarter, Not Harder: Discover Your OpenSearch Clusters Breaking...- Mike Oviedo & Rishabh Singh](https://www.youtube.com/watch?v=XJQmyGWBBEY) |  | OpenSearchCon NA 2025 | Work Smarter, Not Harder: Discover Your OpenSearch Cluster’s Breaking Point With Redline Testing - Mike Oviedo & Rishabh Singh, Amazon Web Services Understanding how your OpenSearch cluster behaves under load is critical for capacity planning, stability, and regression detection. Traditional… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Community / Keynote</summary>
+
+## Community / Keynote
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Keynote: Closing Remarks](https://www.youtube.com/watch?v=FKVg7ty_5I0) | Nate Boot, Amazon Web Services | OpenSearchCon Europe 2025 | Keynote: Closing Remarks - Nate Boot, Amazon Web Services |
+| [Keynote: Welcome & Opening Remarks](https://www.youtube.com/watch?v=Yp6XpNNQGYg) | Dagney Braun, Jochen Kressin & Eric Pugh | OpenSearchCon Europe 2025 | Keynote: Welcome & Opening Remarks - Dagney Braun, Amazon Web Services; Jochen Kressin, Eliatra & Search Guard; Eric Pugh, OpenSource Connections |
+| [Keynote: Closing Remarks](https://www.youtube.com/watch?v=CFFWQRo-S6g) | Kuldeep Yadav, Amazon Web Services | OpenSearchCon India 2025 | Keynote: Closing Remarks - Kuldeep Yadav, Amazon Web Services |
+| [Strengthening India's FOSS Community](https://www.youtube.com/watch?v=1Z51JKQjlc0) | Ansh Arora, FOSS United | OpenSearchCon India 2025 | Strengthening India's FOSS Community - Ansh Arora, FOSS United This talk presents an in-depth exploration of FOSS United's (see fossunited.org) mission to galvanize the Free and Open Source Software (FOSS) movement across India. The talk aims to share insights into the initiatives and programs… |
+| [OpenSearch: From Code to Community](https://www.youtube.com/watch?v=FdVvrNUkvAk) | Andrew Ross, Principal Engineer, AWS | OpenSearchCon Korea 2025 | OpenSearch: From Code to Community - Andrew Ross, Principal Engineer, AWS |
+| [Welcome & Opening Remarks](https://www.youtube.com/watch?v=Aytng62rWEk) | Dotan Horovits, Senior Developer Advocate, OpenSearch | OpenSearchCon Korea 2025 | Welcome & Opening Remarks - Dotan Horovits, Senior Developer Advocate, OpenSearch |
+| [10 Billion Downloads: Insights and Trends in Open Source](https://www.youtube.com/watch?v=0ZVPLTnBwEo) | Avi Press, Scarf | OpenSearchCon NA 2025 | 10 Billion Downloads: Insights and Trends in Open Source - Avi Press, Scarf In this talk, we share the up-to-date results and fresh insights of an in-depth analysis of data gathered from over 10 billion events analyzed across thousands of projects. The analysis reveals a clearer view of the latest… |
+| [Growing a Vibrant Open Source OpenSearch Community in China](https://www.youtube.com/watch?v=vgPUOIvFPlU) | Charlie Yang, Amazon Web Service | OpenSearchCon NA 2025 | Growing a Vibrant Open Source OpenSearch Community in China - Charlie Yang, Amazon Web Service The Chinese OpenSearch community begins from scratch when nobody knows this engine, and now it becomes a strong contributing force. We will demonstrate a big growing market of opensource and the… |
+| [Keynote: The Aryn Journey - Growing a Gen AI Startup on OpenSearch and the Road Ahead](https://www.youtube.com/watch?v=wMlBQ5hbMuQ) | Mehul Shah | OpenSearchCon NA 2025 | Keynote: The Aryn Journey - Growing a Gen AI Startup on OpenSearch and the Road Ahead - Mehul Shah, CEO & Co-founder, Aryn In this talk, I’ll recount Aryn’s journey on how we built our GenAI product and company from inception to now around OpenSearch. OpenSearch is not only the foundation on which… |
+| [Keynote: The OpenSearch Community, Building the Future Together, AWS, NVIDIA and SAP](https://www.youtube.com/watch?v=Kzk5LGBXtew) |  | OpenSearchCon NA 2025 | Keynote: The OpenSearch Community, Building the Future Together - Carl Meadows, Director of Product, AWS Corey J. Nolet, Principal Architect, NVIDIA Hariharan Gandhi, Product Owner/Tech Lead - Cloud Logging, SAP SE |
+| [Keynote: Welcome Back](https://www.youtube.com/watch?v=Nrpx1Ek_s2Q) | Kassian Wren, Open Source Technology Evangelist, NetApp Instraclustr | OpenSearchCon NA 2025 | Keynote: Welcome Back - Kassian Wren, Open Source Technology Evangelist, NetApp Instraclustr |
+| [Keynote: Welcome Back](https://www.youtube.com/watch?v=iiZhNOxD-jc) | Eric Pugh, Founder, OpenSource Connections | OpenSearchCon NA 2025 | Keynote: Welcome Back - Eric Pugh, Founder, OpenSource Connections |
+| [Unconference: Python Now! An OpenSearch world with/in/on Python](https://www.youtube.com/watch?v=wpPrJqL5Se4) | Eric Pugh & Charlie Yang | OpenSearchCon NA 2025 | Unconference: Python Now! An OpenSearch world with/in/on Python - Eric Pugh, co-founder, OpenSource Connections & Charlie Yang - Software Development Manager, AWS Python is the lingua franca of ML/AI. With the super evolution speed of python nowadays, it becomes the ‘only’ in the AI world. This… |
+| [Why Content (no, Not Just Docs) Needs More From the Open-Source Community](https://www.youtube.com/watch?v=iZHnTt-WiEo) | Kassian Wren | OpenSearchCon NA 2025 | Why Content (no, Not Just Docs) Needs More From the Open-Source Community - Kassian Wren, NetApp Instaclustr Code isn’t the only thing that makes an open-source project. There’s time. Nearly all unpaid time. Time spent cursing at failing integration tests, crafting PR comments, etc. People… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>General / Other</summary>
+
+## General / Other
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [A Tool for Eyeballing: Better Than NDCG?](https://www.youtube.com/watch?v=iYgaLXTP-DU) | Stavros Macrakis & Eric Pugh | OpenSearchCon Europe 2025 | A Tool for Eyeballing: Better Than NDCG? - Stavros Macrakis & Eric Pugh There are lots of statistics we can calculate for search relevance: NDCG, precision, MAP, …. OpenSearch 3.0 calculates and displays them for you. But metrics don’t tell the whole story. In particular, NDCG can’t give you the… |
+| [Unconference Session: DevOps is a Foreign Language (Or Why There Are No Junior SREs)](https://www.youtube.com/watch?v=A_a15whgW9M) | Joshua Lee | OpenSearchCon Europe 2025 | Unconference Session: DevOps is a Foreign Language (Or Why There Are No Junior SREs) - Joshua Lee, Altinity |
+| [Unconference Session: Keeping Data Silos Truly Isolated](https://www.youtube.com/watch?v=LWfssIJ_5qM) | Sakshi Nasha, Cohesity | OpenSearchCon Europe 2025 | Unconference Session: Keeping Data Silos Truly Isolated - Sakshi Nasha, Cohesity |
+| [Unconference Session: Optimising Search Relevance Using Querqy](https://www.youtube.com/watch?v=6kd5EUa66y8) | Rene Kriegler | OpenSearchCon Europe 2025 | Unconference Session: Optimising Search Relevance Using Querqy - Rene Kriegler, OpenSource Connections |
+| [Unconference Session: Search QPS](https://www.youtube.com/watch?v=uRHYAmi8mWI) | Aswath Srinivasan, AWS | OpenSearchCon Europe 2025 | Unconference Session: Search QPS - Aswath Srinivasan, AWS |
+| [Unconference Session: Test Search On Any Website With Quepid and Some Janky Javascri... Charlie Hall](https://www.youtube.com/watch?v=wwWRhMdT_jQ) |  | OpenSearchCon Europe 2025 | Unconference Session: Test Search on Any Website with Quepid and Some Janky Javascript - Charlie Hall |
+| [Unconference Session: The Power of Data Visualizations](https://www.youtube.com/watch?v=UdoDv43J45k) | Karsten Schnitter, SAP | OpenSearchCon Europe 2025 | Unconference Session: The Power of Data Visualizations - Karsten Schnitter, SAP |
+| [OpenSearch Migrations: Modernize Without Worry](https://www.youtube.com/watch?v=0w_YYr3Rzo0) | Peter Nied & Brian Presley, Amazon Web Services | OpenSearchCon NA 2025 | OpenSearch Migrations: Modernize Without Worry - Peter Nied & Brian Presley, Amazon Web Services No matter what version you're running—whether it’s legacy Elasticsearch or an earlier OpenSearch release—you can adopt OpenSearch 3.x with zero risk to your existing cluster using the Migration… |
+| [Unconference: Context is all you need?](https://www.youtube.com/watch?v=zPjBNvyFvUs) | Navnit Shukla, AWS | OpenSearchCon NA 2025 | Unconference: Context is all you need? - Navnit Shukla, Sr. Specialist Solution Architect Data and AI, AWS Often time data spread across multiple data sources (search, EDW, DB, noSQL, Saas, etc) and when you are building – production grade AI/GenAI applications, you need to connect the dot. Now… |
+| [Unconference: How will AI + Search (IR) converge?](https://www.youtube.com/watch?v=N9ne6JLr5ew) | Stavros Macrakis, Product Manager, Search, AWS | OpenSearchCon NA 2025 | Unconference: How will AI + Search (IR) converge? - Stavros Macrakis, Product Manager, Search, AWS AI + IR = ? Search / Info Retrieval |
+| [Unconference: OpenSearch is not a database!](https://www.youtube.com/watch?v=yroNfvI6MjM) | Gene Alpert, Sr. Analytics Specialist TAM, AWS | OpenSearchCon NA 2025 | Unconference: OpenSearch is not a database! - Gene Alpert, Sr. Analytics Specialist TAM, AWS Unstructured No integrity enforcement No data independence So stop trying to ‘join’ indexes and flatten/de-normalize your data! |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Ingest & Pipelines</summary>
+
+## Ingest & Pipelines
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [From Bug To PR: Turning Customer Pain Points Into Upstream Contributions](https://www.youtube.com/watch?v=c1SN8Nhjm2I) | Brian Graf & Alex Bunday | OpenSearchCon NA 2025 | From Bug To PR: Turning Customer Pain Points Into Upstream Contributions - Brian Graf & Alex Bunday, NetApp Instaclustr Open source thrives when users become contributors. Yet many organizations struggle to bridge the gap between finding bugs and contributing fixes back to the community. At NetApp… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Monitoring & Observability</summary>
+
+## Monitoring & Observability
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Data Prepper or Logstash: Helping You Choose Your Ingestion](https://www.youtube.com/watch?v=bQ625-KBNfM) | David Venable & Krishna Kondaka | OpenSearchCon Europe 2025 | Data Prepper or Logstash: Helping You Choose Your Ingestion - David Venable, Amazon & Krishna Kondaka, Amazon Web Services OpenSearch Data Prepper is a pipeline tool within the OpenSearch project for data ingestion. A common question that comes up within the open-source community is how it relates… |
+| [Effortless Collaboration With OpenSearch Workspace : A Hands-On Demo](https://www.youtube.com/watch?v=RLIBNcHb-7c) | Abhay Baiju & Shambhavi Sarin | OpenSearchCon Europe 2025 | Effortless Collaboration With OpenSearch Workspace : A Hands-On Demo - Abhay Baiju, Atlassian & Shambhavi Sarin, Salesforce In a large organisation at scale, collaborating effectively on analytics and observability is a major challenge. Sharing the right set of permissions with the right… |
+| [FinOps for Observability: Reining in Hidden Monitoring Costs Across Distributed Teams](https://www.youtube.com/watch?v=I5iooHouZ-0) | Amir Jakoby | OpenSearchCon Europe 2025 | FinOps for Observability: Reining in Hidden Monitoring Costs Across Distributed Teams - Amir Jakoby, Sawmills FinOps has revolutionized cloud cost management, with many vendors emerging over the years to offer tools to curb skyrocketing cloud expenses. However, in distributed organizations, where… |
+| [Mastering and Monitoring Our Smart Home With OpenSearch](https://www.youtube.com/watch?v=Qk8wSoRQgzc) | Pietro Mele & Benjamin Dauvissat, Adelean | OpenSearchCon Europe 2025 | Mastering and Monitoring Our Smart Home With OpenSearch - Pietro Mele & Benjamin Dauvissat, Adelean Who watches the watchmen? Released several years ago, the open-source project Home Assistant is becoming increasingly popular for managing our smart homes. Its plugin architecture and the large… |
+| [Real-Time Analytics UX: Designing OpenSearch Interfa... Xenia Tupitsyna, Laura Pavlov, Aparna Sundar](https://www.youtube.com/watch?v=XhA23t-afng) |  | OpenSearchCon Europe 2025 | Real-Time Analytics UX: Designing OpenSearch Interfaces for Security and Observability Teams - Xenia Tupitsyna, AWS; Laura Pavlov, Amazon Web Services; Aparna Sundar, OpenSearch Project Join us to explore how user research drives technical innovation in OpenSearch. Discover how our UX team rebuilt… |
+| [Security Monitoring of OpenSearch With OpenSearch](https://www.youtube.com/watch?v=p9LSDw7fwNU) | Nils Bandener, Eliatra & Craig Perkins, Amazon | OpenSearchCon Europe 2025 | Security Monitoring of OpenSearch With OpenSearch - Nils Bandener, Eliatra & Craig Perkins, Amazon One of the really cool aspects of OpenSearch is its ability to serve as a monitoring tool for itself. Let's have a look at how to piece together a monitoring solution for OpenSearch using components… |
+| [Testing, Testing, Testing!](https://www.youtube.com/watch?v=nKzD29fFKXU) | Darshit Chanpura & Derek Ho, Amazon | OpenSearchCon Europe 2025 | Testing, Testing, Testing! - Darshit Chanpura & Derek Ho, Amazon Geared towards developers looking to contribute to a new or existing OpenSearch or OpenSearch Dashboards plugin, this talk will explore the testing practices of the OpenSearch project in depth. We'll delve into the functional test… |
+| [Using OpenSearch With OpenTelemetry To Solve Real World Scenarios](https://www.youtube.com/watch?v=7xS2OXkwdfI) | Shambhavi Sarin & Abhay Baiju | OpenSearchCon Europe 2025 | Using OpenSearch With OpenTelemetry To Solve Real World Scenarios - Shambhavi Sarin, Salesforce & Abhay Baiju, Atlassian In this presentation, we’ll go over a real world scenario where we used OpenTelemetry to collect data from logs, metrics and traces and OpenSearch to store and search them. We… |
+| [Beyond Slow Logs: Implementing Advanced Query Insights in OpenSearch](https://www.youtube.com/watch?v=9xb2zsRXa94) | Siddhant Gupta, AWS | OpenSearchCon India 2025 | Beyond Slow Logs: Implementing Advanced Query Insights in OpenSearch - Siddhant Gupta, AWS Query Insights delivers deep visibility into search query execution, offering detailed metrics and actionable recommendations to help users optimize their search operations. This feature analyzes query… |
+| [Monitoring Your OpenSearch Cluster Effectively](https://www.youtube.com/watch?v=tmqNlg8GaUc) | Ashish Singh & Shourya Dutta Biswas | OpenSearchCon India 2025 | Monitoring Your OpenSearch Cluster Effectively - Ashish Singh & Shourya Dutta Biswas, Amazon Web Services OpenSearch's distributed architecture and its versatility in catering to diverse use cases contribute to the unique challenges that can arise, leading to system degradation. This talk will… |
+| [OpenTelemetry Auto Instrumentation for Effortless Observability](https://www.youtube.com/watch?v=-d2BMvi1iXw) | Hanshal Mehta, CloudRaft | OpenSearchCon India 2025 | OpenTelemetry Auto Instrumentation for Effortless Observability - Hanshal Mehta, CloudRaft We will be looking into how to instrument applications with minimum effort using OpenTelemetry auto-instrumentation. Specifically, we will deploy a simple Node.js application that demonstrates the… |
+| [Operating Opensearch - The Kubernetes Way](https://www.youtube.com/watch?v=QEdbrJ5uSVo) | Pratik Parikh, Simbian | OpenSearchCon India 2025 | Operating Opensearch - The Kubernetes Way - Pratik Parikh, Simbian OpenSearch is a powerful open-source search and analytics engine, but running it effectively on Kubernetes requires a well-structured approach. In this session, I will explore how to deploy, configure, and operate OpenSearch in a… |
+| [Journey To Cost-Optimized OpenSearch: A Deep Dive Into Segment Replication](https://www.youtube.com/watch?v=X2sec2XP4LU) | V. Bansal & A. Singh | OpenSearchCon Korea 2025 | Journey To Cost-Optimized OpenSearch: A Deep Dive Into Segment Replication - Varun Bansal & Ashish Singh, Amazon Web Services Operating OpenSearch at scale often means paying for the same indexing work N+1 times. Document replication re-runs the full indexing pipeline on every replica, inflating… |
+| [Mastering the Query Insights Dashboard in OpenSearch](https://www.youtube.com/watch?v=KHti7pl6w5I) | David Zane & Chenyang Ji, Amazon Web Services | OpenSearchCon Korea 2025 | Mastering the Query Insights Dashboard in OpenSearch - David Zane & Chenyang Ji, Amazon Web Services This session offers a focused walkthrough of the Query Insights Dashboard, highlighting its exciting new features and core functionality. Given the shorter format, we’ll concentrate on practical… |
+| [Autoscaling Search and Analytics in Kubernetes: The OpenSearch Operator Advantage](https://www.youtube.com/watch?v=jIqcCBjJ0no) | Pawel Wlodarczyk | OpenSearchCon NA 2025 | Autoscaling Search and Analytics in Kubernetes: The OpenSearch Operator Advantage - Pawel Wlodarczyk, Eliatra Discover how the OpenSearch Operator seamlessly integrates into the Kubernetes ecosystem, enabling GitOps workflows with ArgoCD for effortless, declarative cluster management. Explore the… |
+| [Building Modern Observability Architecture With OpenSearch, OS Ingest...](https://www.youtube.com/watch?v=ptIn4CdjVk4) | Luis Tiani & Lucas Vieira | OpenSearchCon NA 2025 | Building Modern Observability Architecture With OpenSearch, OS Ingestion and AWS OpenSource Stack - Luis Tiani & Lucas Vieira Join us for an insightful session showcasing a complete observability architecture using AWS managed open source solutions. Through practical demonstrations, we'll explore… |
+| [Extending OpenSearch: A Practical Guide To Building Custom Plugins](https://www.youtube.com/watch?v=FVNmvFHO2PQ) | Lucian Precup & Oceane Piedallu | OpenSearchCon NA 2025 | Extending OpenSearch: A Practical Guide To Building Custom Plugins - Lucian Precup & Oceane Piedallu, Adelean OpenSearch is a powerful open-source search and analytics suite—but its true strength lies in its extensibility. In this session, we’ll take a hands-on look at how developers can build,… |
+| [From Bottlenecks To Breakthroughs: Optimizing Aggregation in OpenSearch for Lightning-Fas... A. Jain](https://www.youtube.com/watch?v=H1HkBYL-6pg) |  | OpenSearchCon NA 2025 | From Bottlenecks To Breakthroughs: Optimizing Aggregation in OpenSearch for Lightning-Fast Analytics - Ankit Jain, Amazon Web Services Efficient data analysis and visualization in OpenSearch depend on fast, scalable aggregations. Yet optimizing performance in a distributed, multi-phase query engine… |
+| [From Kernel To Cloud: Building a Complete Open Source Observ...](https://www.youtube.com/watch?v=oWZnSS7mtK4) | Anirudha Jadhav & Shenoy Gurudatt | OpenSearchCon NA 2025 | From Kernel To Cloud: Building a Complete Open Source Observability Pipeline - Anirudha Jadhav & Shenoy Pratik Gurudatt, Amazon Web Services Modern cloud-native environments demand comprehensive observability, but achieving this without vendor lock-in remains challenging. This session demonstrates… |
+| [Kubernetes Under the Magnifying Glass: Observability With OpenSearch](https://www.youtube.com/watch?v=psRPP1HIC1Q) | Arnab Chatterjee, Nomura | OpenSearchCon NA 2025 | Kubernetes Under the Magnifying Glass: Observability With OpenSearch - Arnab Chatterjee, Nomura As Kubernetes adoption grows, ensuring the health and performance of clusters becomes increasingly complex. This session explores how OpenSearch can simplify observability for Kubernetes workloads by… |
+| [OpenTelemetry With OpenSearch: Use-Cases, Status and Roadmap](https://www.youtube.com/watch?v=eLRommAfM6k) | Itamar Syn-Hershko, Pulse | OpenSearchCon NA 2025 | OpenTelemetry With OpenSearch: Use-Cases, Status and Roadmap - Itamar Syn-Hershko, Pulse OpenTelemetry is becoming (or already became) the de-facto standard for monitoring in the cloud and beyond. In this session we'll learn why OpenTelemetry (or OTel in short) is important, how to start using it… |
+| [Operating an OpenSearch Powered E-commerce Search Engine at Scale](https://www.youtube.com/watch?v=kSu_lrMgo9s) | Lucian Precup & Amine Gani | OpenSearchCon NA 2025 | Operating an OpenSearch Powered E-commerce Search Engine at Scale - Lucian Precup & Amine Gani, Adelean What does it take to run a search engine that powers over 1000 e-commerce stores—each with unique catalogs, configurations, and user behaviors? This talk explores the search engine from a DevOps… |
+| [Vital Signs: OpenSearch and Bioobservability](https://www.youtube.com/watch?v=BYKXP04CNuA) | Nate Boot, OpenSearch | OpenSearchCon NA 2025 | Vital Signs: OpenSearch and Bioobservability - Nate Boot, OpenSearch The observability principle isn’t just a tech buzzword - it actually originates from control theory and systems engineering. Despite being also widely used in software engineering, what it really refers to is how well you can… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Neural & Semantic Search</summary>
+
+## Neural & Semantic Search
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Bringing Down the Cost of Your OpenSearch Clusters](https://www.youtube.com/watch?v=xb2FU0mdkA4) | Aswath Srinivasan & Priyanshi Omer | OpenSearchCon India 2025 | Bringing Down the Cost of Your OpenSearch Clusters - Aswath Srinivasan, OpenSearch @ AWS & Priyanshi Omer, AWS Cost for running OpenSearch also always been a huge factor. In spite of OpenSearch being completely open-source and no licensing cost, when you are dealing with terabytes and petabytes of… |
+| [Zero To Hero: Building a Developer-First Search Experience With OpenSearch](https://www.youtube.com/watch?v=f63P2dSgIog) | Unnati Mishra, VMware | OpenSearchCon India 2025 | Zero To Hero: Building a Developer-First Search Experience With OpenSearch - Unnati Mishra, VMware Walk through our journey of creating a developer-centric documentation search platform that understands code snippets, technical context, and user intent. Learn how we enhanced OpenSearch's… |
+| [Managing the Managed: Advanced Automation and Security for Amazon...- Luciano Taranto & Derrike Nunn](https://www.youtube.com/watch?v=pGyMV65iy7I) |  | OpenSearchCon NA 2025 | Managing the Managed: Advanced Automation and Security for Amazon OpenSearch Service - Luciano Taranto & Derrike Nunn, Amazon Web Services Join us as we share our journey of operating OpenSearch at scale through Amazon's managed service offering. We'll demonstrate how we've solved common… |
+| [OTeL/Piped Processing Language: Simplifying Observability Queries With Open...- Peng Huo & Ashwin Pc](https://www.youtube.com/watch?v=zCqGDOqFfaM) |  | OpenSearchCon NA 2025 | OTeL/Piped Processing Language: Simplifying Observability Queries With OpenTelemetry Query Semantics - Peng Huo & Ashwin Pc, Amazon Web Services Observability practitioners face a common challenge: complex query syntaxes that impede efficient analysis of logs, metrics, and traces. This talk… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Operations Automation</summary>
+
+## Operations Automation
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Finding Alternatives to Security Manager](https://www.youtube.com/watch?v=kx9QmtPCwE4) | Gulshan Kumar, Amazon | OpenSearchCon India 2025 | Finding Alternatives to Security Manager - Gulshan Kumar, Amazon OpenJDK has decided to permanently disable security manager (JSM/security-manager) starting JDK 24-- considering it as legacy. Java security manager is used extensively in Opensearch to sandbox Opensearch process. This sandboxing… |
+| [Migrating Queries From Lens and Saved Objects -- Data Tangles To Data...](https://www.youtube.com/watch?v=Kx9LF3Ek90M) | Sarah Hudspeth & Jason Ng | OpenSearchCon NA 2025 | Migrating Queries From Lens and Saved Objects -- Data Tangles To Data Order - Sarah Hudspeth & Jason Ng, Chronosphere Migrating between logging solutions is never easy—but moving off a proprietary Kibana instance turned into an unexpectedly complex adventure. We had to extract filters, queries, and… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>RAG & LLM Integration</summary>
+
+## RAG & LLM Integration
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Analytics Performance at Scale: The OpenSearch Star Tree Index Journ... Bharathwaj G & Sandesh Kumar](https://www.youtube.com/watch?v=Y-Bm-wDnmMQ) |  | OpenSearchCon Europe 2025 | Analytics Performance at Scale: The OpenSearch Star Tree Index Journey - Bharathwaj G & Sandesh Kumar, Amazon Web Services In observability and analytics workloads, aggregation queries are fundamental but often become a performance bottleneck as OpenSearch aggregations scale linearly with document… |
+| [Building a Communication Platform With OpenSearch for Optimized Text and Multi-Modal D... Satej Sahu](https://www.youtube.com/watch?v=7NTpIDlxDPs) | Large Language | OpenSearchCon Europe 2025 | Building a Communication Platform With OpenSearch for Optimized Text and Multi-Modal Data - Satej Sahu, Zalando SE Building a communication platform that handles diverse data types—emails, chats, attachments, and files—can be complex. Storing and organizing this data in a way that makes it… |
+| [Building a Resilient, Petabyte-Scale Logging Platform With OpenSearch](https://www.youtube.com/watch?v=NtQ6GumQLe4) | Mark Kavanagh & Parth Pandit | OpenSearchCon Europe 2025 | Building a Resilient, Petabyte-Scale Logging Platform With OpenSearch - Mark Kavanagh & Parth Pandit, Amazon Web Services This talk will dive deep into building a multi-region, highly scalable enterprise-grade logging platform on OpenSearch. The platform can scale to handle over 100 terabytes of… |
+| [Building a Secure and Scalable LLM Infrastructure With OpenSearch](https://www.youtube.com/watch?v=30H4vzj125g) | Pedro Guimarães & Peter De Sousa | OpenSearchCon Europe 2025 | Building a Secure and Scalable LLM Infrastructure With OpenSearch - Pedro Guimarães & Peter De Sousa, Canonical OpenSearch provides several tools for search and information retrieval, important in many stages of prompt processing. However, to be used in a varied range of industries and regulations… |
+| [Building an Open Source Observability Stack from Raw Telemetry](https://www.youtube.com/watch?v=fW5ugctbifw) | Joshua Lee, Altinity | OpenSearchCon Europe 2025 | Building an Open Source Observability Stack from Raw Telemetry - Joshua Lee, Altinity This session will guide you through the process of building a complete observability stack from the ground up using raw telemetry data ingested directly into a datastore, combining a variety of open source signals… |
+| [Building the Future of Search: Hybrid Approaches With Neural Sparse a... Aditya Soni & Seema Saharan](https://www.youtube.com/watch?v=Cj08xStE7Ww) |  | OpenSearchCon Europe 2025 | Building the Future of Search: Hybrid Approaches With Neural Sparse and Dense Vectors - Aditya Soni, Forrester & Seema Saharan, Autodesk Forget the old search paradigms—AI is here to change everything! By blending sparse (traditional term-based) and dense (vectorized) search methods, OpenSearch… |
+| [Creating an API Definition for OpenSearch Retroactively](https://www.youtube.com/watch?v=p2P__hsZMCo) | Pranav Garg & Sachet Jayaram Alva, Amazon | OpenSearchCon Europe 2025 | Creating an API Definition for OpenSearch Retroactively - Pranav Garg & Sachet Jayaram Alva, Amazon The standard way for creating APIs is to first define the API contract, use that to generate classes and write your application around it. But what happens when the application is already in place… |
+| [Cross-Reference Code Mapping System With Opensearch](https://www.youtube.com/watch?v=RyM7k54U9ts) | Irine Benoy & Ismaël Hassane, Oracle | OpenSearchCon Europe 2025 | Cross-Reference Code Mapping System With Opensearch - Irine Benoy & Ismaël Hassane, Oracle Leveraging OpenSearch, we propose a Cross-Reference Code Mapping System to dynamically map medical products across terminologies and regulatory frameworks. For example, it maps Paracetamol (UK) to… |
+| [Dive Deep on OpenSearch’s Vector Search](https://www.youtube.com/watch?v=COZzSDxJi44) | Jon Handler, Amazon Web Services & Yuye Zhu, Amazon | OpenSearchCon Europe 2025 | Dive Deep on OpenSearch’s Vector Search - Jon Handler, Amazon Web Services & Yuye Zhu, Amazon Search engines take in a query and return a set of results that best satisfy the need of the searcher. Words from a text box, user interface facets, and some user identity information have been the clues… |
+| [Enhancing Application Observability With OpenSearch and OpenTelemetry](https://www.youtube.com/watch?v=slxTFDB2hsI) | Karsten Schnitter, SAP SE | OpenSearchCon Europe 2025 | Enhancing Application Observability With OpenSearch and OpenTelemetry - Karsten Schnitter, SAP SE How do you know whether your applications are running smoothly or struggling? OpenSearch can provide insights and analyze telemetry data of your applications. Modern observability revolves around three… |
+| [Exploring Tiered Caching in OpenSearch: Optimizing Performance With... Ankit Jain & Sagar Upadhyaya](https://www.youtube.com/watch?v=4UYaZbihp8w) |  | OpenSearchCon Europe 2025 | Exploring Tiered Caching in OpenSearch: Optimizing Performance With Multi-Layered Caching Strategies - Ankit Jain & Sagar Upadhyaya, AWS Join us for an in-depth exploration of tiered caching in OpenSearch, a powerful search and analytics engine. Caching plays a crucial role in optimizing… |
+| [High Availability Architecture With OpenSearch](https://www.youtube.com/watch?v=IMB46I5VHqg) | Gaurav Bafna & Varun Bansal, Amazon | OpenSearchCon Europe 2025 | High Availability Architecture With OpenSearch - Gaurav Bafna & Varun Bansal, Amazon Dive deep into the cutting-edge strategies for designing robust, highly available OpenSearch clusters that maintain peak performance even in the face of infrastructure challenges. This session will showcase how to… |
+| [How To Start Contributing To OpenSearch Without Any Prior Knowledge on Op... Abdul Muneer Kolarkunnu](https://www.youtube.com/watch?v=Bvm1vJmZAcQ) |  | OpenSearchCon Europe 2025 | How To Start Contributing To OpenSearch Without Any Prior Knowledge on OpenSearch - Abdul Muneer Kolarkunnu, NetApp Instaclustr Abstract: Contributing to an open-source project like OpenSearch can seem daunting, especially without prior knowledge of the product. In this presentation, I will share… |
+| [Improve Auction House Search With Vector Capabilities: Bedrock or SageMaker Serv... Mikhail Chumakov](https://www.youtube.com/watch?v=JO0m2PWAKKY) | AWS Bedrock | OpenSearchCon Europe 2025 | Improve Auction House Search With Vector Capabilities: Bedrock or SageMaker Serverless Inference - Mikhail Chumakov, Actum Digital Search engines guide users from their initial goals to the information that fulfills those goals. The retrieved items are deemed relevant when they align with the… |
+| [Managing Over 1,000 OpenSearch Clusters in a Private Cloud](https://www.youtube.com/watch?v=F5Fxb6Z6wec) | Sun Ro Lee, LINE | OpenSearchCon Europe 2025 | Managing Over 1,000 OpenSearch Clusters in a Private Cloud - Sun Ro Lee, LINE In this session, we'll share our experience managing over 1,000 OpenSearch clusters in a private cloud, focusing on technologies used for stable operations and cost reduction. The LINE Cloud team provides OpenSearch as a… |
+| [Maximizing OpenSearch Cluster Performance: A Comprehensive Benchmarkin... Govind Kamat & Mike Oviedo](https://www.youtube.com/watch?v=yMIOeXuFN6U) |  | OpenSearchCon Europe 2025 | Maximizing OpenSearch Cluster Performance: A Comprehensive Benchmarking Approach - Govind Kamat & Mike Oviedo, Amazon Performance testing OpenSearch clusters requires careful consideration of numerous variables and methodologies. While OpenSearch Benchmark (OSB) and its associated workloads provide… |
+| [OpenSearch Dashboards: Past Progress and Future Roadmap](https://www.youtube.com/watch?v=K0-wcQP5haE) | Nate Boot, Amazon Web Services | OpenSearchCon Europe 2025 | OpenSearch Dashboards: Past Progress and Future Roadmap - Nate Boot, Amazon Web Services This session will provide an overview of key advancements in OpenSearch Dashboards delivered in 2024, including the launch of the next-generation OpenSearch UI. Highlights include multiple data source… |
+| [OpenSearch Indexes Made Easy: Terraform, Python, and a Sprinkle of M... Yulia Barabash & Laysa Uchoa](https://www.youtube.com/watch?v=x4JtsCDUwy0) |  | OpenSearchCon Europe 2025 | OpenSearch Indexes Made Easy: Terraform, Python, and a Sprinkle of Magic - Yulia Barabash & Laysa Uchoa, Nordcloud, IBM Company Versioning OpenSearch indexes is critical for maintaining data integrity, ensuring seamless updates, and enabling rollback capabilities in modern CICD pipelines. This… |
+| [Optimizing OpenSearch Cluster Performance With Dynamic Shardi... Aswath Srinivasan & Robert Hoffmann](https://www.youtube.com/watch?v=GR6GsXNVp_E) |  | OpenSearchCon Europe 2025 | Optimizing OpenSearch Cluster Performance With Dynamic Sharding Strategy - Aswath Srinivasan & Robert Hoffmann, Amazon Web Services Many OS users, especially those new to Lucene-based search engines, struggle with sharding best practices. This often results in inefficient shard sizes, leading to… |
+| [Overcoming Challenges in Building a Multi-Tenant Logging Platf... David Riepl & Maximilian Scharizer](https://www.youtube.com/watch?v=RlDB9XvXWY8) |  | OpenSearchCon Europe 2025 | Overcoming Challenges in Building a Multi-Tenant Logging Platforms for Kubernetes - David Riepl & Maximilian Scharizer, RISE GmbH This talk will explore how OpenSearch can be leveraged to build a centralized and multi-tenant log analysis platform that provides logging-as-a-service to several… |
+| [PutOpenSearchVector QueryOpenSearchVector: Use Case of Two Python NiFi Processo... Vincenzo Lombardo](https://www.youtube.com/watch?v=WP0oDQjbVn0) |  | OpenSearchCon Europe 2025 | PutOpenSearchVector QueryOpenSearchVector: Use Case of Two Python NiFi Processors for OpenSearch - Vincenzo Lombardo, Seacom With NiFi version 2.x, the ability to interface with OpenSearch using pre-built Python components (processors) was introduced. These processors address various needs related… |
+| [RAG From Text and Images Using OpenSearch and Vision Language Mod... Jakub Zavrel & Batu Helvacioglu](https://www.youtube.com/watch?v=KXULk318ZxM) |  | OpenSearchCon Europe 2025 | RAG From Text and Images Using OpenSearch and Vision Language Models - Jakub Zavrel & Batu Helvacioglu, Zeta Alpha With the rapid rise of Large Vision Language Models, radically new approaches to multimodal information retrieval have been proposed. Methods like ColPali and Document Screenshot… |
+| [Supercharging OpenSearch for RAG: Lessons From a Large-scale GenAI... Nabeel Janjua & Akarsha Sehwag](https://www.youtube.com/watch?v=0wphTp29ZK0) |  | OpenSearchCon Europe 2025 | Supercharging OpenSearch for RAG: Lessons From a Large-scale GenAI Deployment - Nabeel Janjua, HDI AG & Akarsha Sehwag, Amazon Web Services In this session, we'll delve into the critical optimizations and fine-tuning strategies that propelled HDI Germany P&C and Life Insurance, a Talanx AG… |
+| [Unconference Session: Query Understanding with LLM](https://www.youtube.com/watch?v=hlaHiRzL8FM) | Praveen Mohan Prasad, AWS | OpenSearchCon Europe 2025 | Unconference Session: Query Understanding with LLM - Praveen Mohan Prasad, AWS |
+| [Unifying Diverse Logs in Big Data Systems for Seamless Analysis and Action with OpenSe... Satej Sahu](https://www.youtube.com/watch?v=JXch1txO4DE) |  | OpenSearchCon Europe 2025 | Unifying Diverse Logs in Big Data Systems for Seamless Analysis and Action with OpenSearch and LLMs - Satej Sahu, Zalando SE In modern big data ecosystems like Databricks, logs from different jobs, stages, and components can be highly diverse, making it difficult to gain comprehensive insights into… |
+| [Unlock NextGen Agentic Product Search With ML and LLM Innovations of OpenSea... Praveen Mohan Prasad](https://www.youtube.com/watch?v=wpRaUzNMt1Y) |  | OpenSearchCon Europe 2025 | Unlock NextGen Agentic Product Search With ML and LLM Innovations of OpenSearch - Praveen Mohan Prasad, AWS In the realm of search, Machine Learning plays a pivotal role in enhancing the user experience throughout the entire lifecycle, from ingesting documents to delivering highly relevant results… |
+| [Unlocking Insights from Multimodal PDFs using OpenSearch and V... Praveen Mohan Prasad & Mingshi Liu](https://www.youtube.com/watch?v=dZCYcQ4BmCU) |  | OpenSearchCon Europe 2025 | Unlocking Insights from Multimodal PDFs using OpenSearch and Vision-Language Models - Praveen Mohan Prasad & Mingshi Liu, AWS Unlock the insights hidden within unstructured PDF documents! Many PDFs contain multimodal elements like text, tables, and images, and relying solely on text-based… |
+| [Where’s the Auto in Auto-Instrumentation? A Look at Current Automation Strategies with... Joshua Lee](https://www.youtube.com/watch?v=7VibyMiQj1c) |  | OpenSearchCon Europe 2025 | Where’s the Auto in Auto-Instrumentation? A Look at Current Automation Strategies with OTel - Joshua Lee, Altinity “Automatic Instrumentation” can mean a lot of things depending on context. Whether we’re discussing the Instrumentation SDKs or full-kernel observability with eBPF, the promise is the… |
+| [Accelerating OpenSearch K-NN With FAISS, Leveraging AVX-512 for a... Sourav Paul & Abhijit Kulkarni](https://www.youtube.com/watch?v=Oyc94P3Z2no) |  | OpenSearchCon India 2025 | Accelerating OpenSearch K-NN With FAISS, Leveraging AVX-512 for a Superior Vector Search Experience - Sourav Paul & Abhijit Kulkarni, Intel Corporation Vector search is a rapidly growing area within search and analytics, and the k-NN (k-Nearest Neighbors) plugin in OpenSearch offers multiple… |
+| [Boosting AI With OpenSearch: Vector Stores, Similarity Search, and Retrieval-Augme... Soujanya Konka](https://www.youtube.com/watch?v=2Qp8iJhphvY) |  | OpenSearchCon India 2025 | Boosting AI With OpenSearch: Vector Stores, Similarity Search, and Retrieval-Augmented Generation - Soujanya Konka, AWS Explore how OpenSearch enhances AI applications through vector stores, similarity search, and retrieval-augmented generation (RAG). Learn to efficiently store and retrieve high-… |
+| [Challenges in Building RAG Systems (and Solutions Using OpenSearch)](https://www.youtube.com/watch?v=EKkmplors6c) | Parminder Singh, Tempera AI | OpenSearchCon India 2025 | Challenges in Building RAG Systems (and Solutions Using OpenSearch) - Parminder Singh, Tempera AI Overview - Why use RAG (Retrieval-Augmented Generation)? - How does OpenSearch contribute to building intelligent agents? Barriers to Deploying RAG Systems in Production: - Key concerns: Quality, Cost,… |
+| [Contribute to OpenSearch: Build Your Skills While Advancing Open Technolo... Abdul Muneer Kolarkunnu](https://www.youtube.com/watch?v=U6pxdTLDojE) |  | OpenSearchCon India 2025 | Contribute to OpenSearch: Build Your Skills While Advancing Open Technology - Abdul Muneer Kolarkunnu, NetApp Instaclustr OpenSearch is a powerful, community-driven open-source search and analytics suite that offers an exciting opportunity for developers, data engineers, and tech enthusiasts to… |
+| [Extending OpenSearch Dashboards: Building a Unified Obser... Prabhakar Vemparala & Sreevani Karasala](https://www.youtube.com/watch?v=1tdtoI7JEuo) |  | OpenSearchCon India 2025 | Extending OpenSearch Dashboards: Building a Unified Observability Platform - Prabhakar Vemparala & Sreevani Karasala, Freshworks I hope to share how we extended OpenSearch Dashboards (OSD) beyond traditional log analytics to create a single pane of glass for tracing, profiling, and alert… |
+| [Harnessing DeepSeek-R1 and OpenSearch for RAG-Powered Intelligent Info... Shubham Kumar & Ramya Bhat](https://www.youtube.com/watch?v=kGt2xEvTY6g) | Amazon OpenSearch | OpenSearchCon India 2025 | Harnessing DeepSeek-R1 and OpenSearch for RAG-Powered Intelligent Information Retrieval - Shubham Kumar & Ramya Bhat, Amazon Web Services As enterprises grapple with unstructured data, Retrieval-Augmented Generation (RAG) is transforming search from simple retrieval to context-aware AI-driven… |
+| [How OpenSearch Saved Our College Grades](https://www.youtube.com/watch?v=fwkH86Sfi9M) | Achanandhi M, Keploy | OpenSearchCon India 2025 | How OpenSearch Saved Our College Grades - Achanandhi M, Keploy During our college days, my team and I embarked on an ambitious project—a Scheme Recommendation Chatbot to help users find relevant government schemes using intelligent search. As students new to Retrieval-Augmented Generation (RAG), we… |
+| [Integrating Graph Context With OpenSearch for Enhanced RAG Application Performance](https://www.youtube.com/watch?v=FQeMOBvtZDo) | Satej Sahu | OpenSearchCon India 2025 | Integrating Graph Context With OpenSearch for Enhanced RAG Application Performance - Satej Sahu, Zalando SE OpenSearch is a powerful tool for log storage, analysis, and dashboard reporting. In the context of Retrieval-Augmented Generation (RAG) applications with Large Language Models (LLMs),… |
+| [Keynote: From Keyword Search to Vector Powered Insights: Th... Pallavi Priyadarshini & Sreedhar Gade](https://www.youtube.com/watch?v=SRhbPSaAars) |  | OpenSearchCon India 2025 | Keynote: From Keyword Search to Vector Powered Insights: The OpenSearch Journey - Pallavi Priyadarshini, Senior Manager, Amazon Web Services & Sreedhar Gade, Freshworks OpenSearchCon India opens with an exciting and forward-looking keynote presentation. Join Pallavi Priyadarshini, Sr. Manager, the… |
+| [Mastering Snapshots in OpenSearch: From Basics To Advanced Strategi... Ashish Singh & Bukhtawar Khan](https://www.youtube.com/watch?v=YVsKnZhuAcs) |  | OpenSearchCon India 2025 | Mastering Snapshots in OpenSearch: From Basics To Advanced Strategies - Ashish Singh & Bukhtawar Khan, Amazon Snapshots are the backbone of data resilience and portability in OpenSearch. This session will provide a comprehensive exploration of snapshot capabilities in open-source OpenSearch,… |
+| [NoOps for OpenSearch: The Future of Self-Healing Search Infras... Rajani Ekunde & Rajaram Erraguntla](https://www.youtube.com/watch?v=oMqljDVEc_g) |  | OpenSearchCon India 2025 | NoOps for OpenSearch: The Future of Self-Healing Search Infrastructure - Rajani Ekunde, GlobalLogic & Rajaram Erraguntla, Fintech Company What if OpenSearch could manage itself? This session explores how AI, automation, and cloud-native tools are transforming OpenSearch operations. Learn how… |
+| [OpenSearch & AI Driven Cloud Native Platforms: Adaptive & Agentic Microserv... Ramesh Kumar Manickam](https://www.youtube.com/watch?v=fklKC7rNYhc) |  | OpenSearchCon India 2025 | OpenSearch & AI Driven Cloud Native Platforms: Adaptive & Agentic Microservice Mesh - Ramesh Kumar Manickam, Transunion Providing Information and Insights for good - forms the foundational mission of TransUnion. Through this session, The architectural approaches of "Cloud Native Platforms… |
+| [OpenSearch With Gaia: Building Next-Gen AI-Driven Search and Analytics Workflows](https://www.youtube.com/watch?v=lxi1ghVFTwo) | Harish Kotra | OpenSearchCon India 2025 | OpenSearch With Gaia: Building Next-Gen AI-Driven Search and Analytics Workflows - Harish Kotra, Gaia This session explores how Gaia’s decentralized AI platform integrates with OpenSearch to create scalable, privacy-preserving solutions for semantic search, generative AI applications, and real-time… |
+| [OpenSearch’s Quest for Disaggregated Storage: The Strangler Fig Patter... Sachin Kale & Gaurav Bafna](https://www.youtube.com/watch?v=cc7JF1wguYc) |  | OpenSearchCon India 2025 | OpenSearch’s Quest for Disaggregated Storage: The Strangler Fig Pattern in Practice - Sachin Kale & Gaurav Bafna, Amazon Learn the story of AWS OpenSearch Service, and how we evolved the OpenSearch engine to offer high durability at Petabyte scale without sacrificing on performance. We’ll share our… |
+| [Operational Logs and Event Management for HPC S... Sinchana Karnik, Raghul Vasudevan & Ambresh Gupta](https://www.youtube.com/watch?v=WCtVXzrnS68) | Fluent Bit | OpenSearchCon India 2025 | Operational Logs and Event Management for HPC Systems Using OpenSearch: Alerting and Dashboards - Sinchana Karnik, Raghul Vasudevan & Ambresh Gupta, Hewlett Packard Enterprise HPCM (HPE Performance Cluster Manager) is a suite for monitoring HPC systems, consisting of rack, chassis, compute… |
+| [Orchestrating Multimodal RAG With Agentic Workflows With OpenSearch](https://www.youtube.com/watch?v=wJugr9Cg3BA) | Smita Singh & Hitesh Subnani | OpenSearchCon India 2025 | Orchestrating Multimodal RAG With Agentic Workflows With OpenSearch - Smita Singh & Hitesh Subnani, Amazon Web Services Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for grounding large language models (LLMs) in external knowledge, enabling more accurate and contextually… |
+| [Revolutionizing Search with Power of Neural Sparse and Dense Vectors](https://www.youtube.com/watch?v=dBMaMMY6Mfs) | Aditya Soni & Seema Saharan | OpenSearchCon India 2025 | Revolutionizing Search with Power of Neural Sparse and Dense Vectors - Aditya Soni, Forrester & Seema Saharan, Autodesk Forget outdated search methods—it's time for a revolution! By combining sparse (traditional term-based) and dense (vectorized) search techniques, OpenSearch creates a powerful… |
+| [Scaling Log Management: PB-Scale Migration From Elasticsearch To... Dileep Dora & Sivatarun Ponnada](https://www.youtube.com/watch?v=i0kZ1l9Pu7U) |  | OpenSearchCon India 2025 | Scaling Log Management: PB-Scale Migration From Elasticsearch To OpenSearch With 30% Cost Reduction - Dileep Dora & Sivatarun Ponnada, Freshworks I hope to share our experience of managing petabyte-scale log data on OpenSearch, achieving 30% cost savings while ensuring performance and scalability.… |
+| [Scaling OpenSearch at Uber: Operating Resilient, Fault-Tolerant, High-Performance Clus... Anurag Rai](https://www.youtube.com/watch?v=NVuuqFt7gm8) |  | OpenSearchCon India 2025 | Scaling OpenSearch at Uber: Operating Resilient, Fault-Tolerant, High-Performance Clusters at Scale - Anurag Rai, Uber In this talk, I’ll share Uber’s journey in scaling OpenSearch to handle large scale data across 100+ clusters while ensuring high availability, fault tolerance, performance and… |
+| [Seeing Is Believing: OpenTelemetry and OpenSearch in Next-Gen Observability](https://www.youtube.com/watch?v=9dtvRDK63v0) | Bikram Debnath | OpenSearchCon India 2025 | Seeing Is Believing: OpenTelemetry and OpenSearch in Next-Gen Observability - Bikram Debnath, IBM India Software Labs In modern applications, observability is essential. OpenTelemetry (OTel) has emerged as the standard for telemetry data, providing a unified way to collect, process, and export… |
+| [Sponsored Keynote: OpenSearch at Atlassian Scale](https://www.youtube.com/watch?v=ALeL71yRJwA) | Fernando Garcia Valenzuela | OpenSearchCon India 2025 | Sponsored Keynote: OpenSearch at Atlassian Scale - Fernando Garcia Valenzuela, Head of Engineering - Atlassian Cloud Storage, Atlassian Atlassian runs OpenSearch to service different scenarios for our hundreds of thousands of customers around the world. Join me to understand how Atlassian continues… |
+| [Threat Modeling for OpenSearch: Identifying and Mitigating Security Risks](https://www.youtube.com/watch?v=fSBJ9Dsz79E) | Shikhar Jain, AWS | OpenSearchCon India 2025 | Threat Modeling for OpenSearch: Identifying and Mitigating Security Risks - Shikhar Jain, AWS As OpenSearch continues to gain popularity for search and analytics, understanding its security landscape becomes crucial. This session introduces threat modeling for OpenSearch deployments, helping… |
+| [Unifying Diverse Logs in Big Data Systems for Seamless Analysis and Action With OpenSe... Satej Sahu](https://www.youtube.com/watch?v=FjJfrsmi2WQ) |  | OpenSearchCon India 2025 | Unifying Diverse Logs in Big Data Systems for Seamless Analysis and Action With OpenSearch and LLMs - Satej Sahu, Zalando SE In modern big data ecosystems like Databricks, logs from different jobs, stages, and components can be highly diverse, making it difficult to gain comprehensive insights into… |
+| [Women in Cloud Native: Challenges, Opportunities, and the Path Forward](https://www.youtube.com/watch?v=ACZtPfmiLXE) | Rima Sidique, Stackgenie | OpenSearchCon India 2025 | Women in Cloud Native: Challenges, Opportunities, and the Path Forward - Rima Sidique, Stackgenie At cloud-native events, from local meetups to global conferences, I’ve often wished to see more women participating. When I got the chance to attend KubeCon + CloudNativeCon 2024 in Delhi as a Dan Kohn… |
+| [🚀 OpenSearchCon India 2025 Highlights | Bengaluru, India 🇮🇳](https://www.youtube.com/watch?v=N77UK2oh3GQ) |  | OpenSearchCon India 2025 | Relive the energy, innovation, and groundbreaking discussions from OpenSearchCon India 2025! From vector-powered search to RAG-driven AI workflows, industry leaders and open-source enthusiasts came together to shape the future of search and observability. Watch the keynotes, tech talks, and more to… |
+| [Accelerating OpenSearch Service Operations With an Operation Agent](https://www.youtube.com/watch?v=PRtxzu56rWY) | Sun Ro Lee, LINE Plus | OpenSearchCon Korea 2025 | Accelerating OpenSearch Service Operations With an Operation Agent - Sun Ro Lee, LINE Plus OpenSearch has a smart fault recovery feature, but we still spend a lot of time finding root causes—searching logs, analyzing metrics, and checking cluster health across hundreds of clusters. While recovery… |
+| [Beyond Keywords: Building an AI-Powered Search That Reads Your Mind](https://www.youtube.com/watch?v=iNeoNHSSpmo) | Prashant Agrawal, AWS | OpenSearchCon Korea 2025 | Beyond Keywords: Building an AI-Powered Search That Reads Your Mind - Prashant Agrawal, Amazon Web Services Step into the future of intelligent search as we unveil how to build neural search experiences that understand user intent with uncanny precision. This technical deep-dive will showcase how… |
+| [Building Privacy-First Search With Containerized OpenSearch and Local LLMs](https://www.youtube.com/watch?v=OOt_otZXWXA) | R. Karpe & S. Soni | OpenSearchCon Korea 2025 | Building Privacy-First Search With Containerized OpenSearch and Local LLMs - Rudraksh Karpe, ZS Associates & Satyam Soni, Devtron.ai Most AI-powered search today depends on cloud services, which creates two big problems: data exposure and vendor lock-in. Sensitive information often leaves local… |
+| [From Telemetry to Insight: Building AI-Powered Observability Pipelines with OpenSearch](https://www.youtube.com/watch?v=B6LiHjJLlbM) | Neel Shah | OpenSearchCon Korea 2025 | From Telemetry to Insight: Building AI-Powered Observability Pipelines with OpenSearch - Neel Shah, Middleware Modern observability demands more than simply collecting metrics and logs; it requires insightful analysis, real-time alerting, and predictive analytics. In this session, I’ll explore a… |
+| [OpenSearch as the Unified Backend: From Log Storage to Agentic Search Platform at LINE](https://www.youtube.com/watch?v=1enX4-T46Ds) | Sun Ro Lee | OpenSearchCon Korea 2025 | OpenSearch as the Unified Backend: From Log Storage to Agentic Search Platform at LINE - Sun Ro Lee, Cloud Engineer, LINE Plus OpenSearch at LINE started as a simple log storage and analytics platform. Over time, it evolved into a high-performance search engine that powers core LINE services. Now,… |
+| [A Visual AI Search Flow Builder for OpenSearch: Build GenAI and Vector...- Tyler Ohlsen & Owais Kazi](https://www.youtube.com/watch?v=nsSo_fG7Y5s) |  | OpenSearchCon NA 2025 | A Visual AI Search Flow Builder for OpenSearch: Build GenAI and Vector Search Solutions Faster - Tyler Ohlsen & Owais Kazi, Amazon Web Services OpenSearch Flow is a low code/no code user interface that simplifies the creation of AI/ML workflows within OpenSearch. It enables builders to develop… |
+| [AI & OpenSearch: Confronting the New Frontier of Security & Compl...](https://www.youtube.com/watch?v=O6ZqhrQ-Lbo) | Hugo Huang & Mohamed Nsiri | OpenSearchCon NA 2025 | AI & OpenSearch: Confronting the New Frontier of Security & Compliance Burdens - Hugo Huang & Mohamed Nsiri, Canonical A recent "State of Software Supply Chains" report by IDC, sponsored by Google Cloud & Canonical and surveying 500+ IT/Security leaders, highlights critical trends. Notably, as… |
+| [AI-Ready Data Foundation Using Amazon OpenSearch](https://www.youtube.com/watch?v=GgrZcJYQjVI) | Navnit Shukla & Gagan Brahmi, Amazon Web Services | OpenSearchCon NA 2025 | AI-Ready Data Foundation Using Amazon OpenSearch - Navnit Shukla & Gagan Brahmi, Amazon Web Services The foundation of effective AI solutions lies in the quality, accessibility, and relevance of the underlying data. In this session, we explore how Amazon OpenSearch can be leveraged to build an AI-… |
+| [Agentic AI Meets Search: Real-World Use Cases With...](https://www.youtube.com/watch?v=0SAVwJGEpuc) | Aditya Soni, Seema Saharan, Anshika Tiwari | OpenSearchCon NA 2025 | Agentic AI Meets Search: Real-World Use Cases With OpenSearch MCP Support - Aditya Soni, Forrester Research; Seema Saharan, Autodesk; Anshika Tiwari, Amazon Web Services Agentic AI systems operate autonomously to plan, execute, and adapt across diverse domains, but their power multiplies when… |
+| [Beyond RAG - Going From Search to Analytics on Unstructured Data with Aryn](https://www.youtube.com/watch?v=ROYULONJHN8) | Mehul Shah, Aryn | OpenSearchCon NA 2025 | Beyond RAG - Going From Search to Analytics on Unstructured Data with Aryn - Mehul Shah, Aryn Over the past year generative AI models of GPT-4 quality have gotten 50-80x cheaper and 10-20x faster. Given this trend, LLMs have the potential to go beyond RAG and run complex semantic analyses on… |
+| [Building Intelligent Search Systems With Agentic RAG and OpenSearch- Vivek Gautam & Rushabh Lokhande](https://www.youtube.com/watch?v=gkcHijqkhME) |  | OpenSearchCon NA 2025 | Building Intelligent Search Systems With Agentic RAG and OpenSearch - Vivek Gautam & Rushabh Lokhande, Amazon Web Services In today's rapidly evolving AI landscape, Agentic Retrieval-Augmented Generation (RAG) systems represent a significant leap forward in intelligent search capabilities. This… |
+| [Building Next-gen Search With OpenSearch](https://www.youtube.com/watch?v=5OIb9Rpz1og) | Pietro Mele & Lucian Precup, Adelean | OpenSearchCon NA 2025 | Building Next-gen Search With OpenSearch - Pietro Mele & Lucian Precup, Adelean The latest version of OpenSearch introduces powerful new features and tools that enable us to build AI-powered assistants capable of interacting not only with our data, but also with cluster configurations and even the… |
+| [DTEX's OpenSearch Journey: From Migration to Innovation](https://www.youtube.com/watch?v=KcvHA3gRhXg) | Prashant Agrawal & Sulabh Jain | OpenSearchCon NA 2025 | DTEX's OpenSearch Journey: From Migration to Innovation - Prashant Agrawal, OpenSearch & Sulabh Jain, DTEX Organizations migrating to OpenSearch face the critical challenge of ensuring business continuity during transition. This session provides a comprehensive approach for successful migration,… |
+| [Derived Source: Slash Storage Costs Without Losing Data in Open...](https://www.youtube.com/watch?v=HVrWuHtEG-c) | Mohit Godwani & Tanik Pansuriya | OpenSearchCon NA 2025 | Derived Source: Slash Storage Costs Without Losing Data in OpenSearch - Mohit Godwani & Tanik Pansuriya, Amazon Web Services In today's data-intensive world, OpenSearch users struggle to balance storage costs with query performance. The _source field, essential for accessing original document data,… |
+| [Enhancing Query Performance Through Intelligent Data Co-location](https://www.youtube.com/watch?v=N2Q8qCrOX-k) | Rishav Sagar & Tejas Shah | OpenSearchCon NA 2025 | Enhancing Query Performance Through Intelligent Data Co-location - Rishav Sagar & Tejas Shah, Amazon Web Services In OpenSearch, a typical workload involves log analytics and metrics data, where for the majority of search queries, only a subset of the data is more relevant. However, the current… |
+| [Fine-Grained Authorization for Secure RAG With OpenSearch](https://www.youtube.com/watch?v=faQAPPVctoA) | Juan Pablo Noreña, Canonical | OpenSearchCon NA 2025 | Fine-Grained Authorization for Secure RAG With OpenSearch - Juan Pablo Noreña, Canonical As Retrieval Augmented Generation (RAG) becomes the go-to solution for enterprise LLMOps adoption, a security gap has emerged: Most implementations prioritize answer precision over data governance. This creates… |
+| [From Chaos To Clarity: Centralizing Observability With OpenSearch at Scale](https://www.youtube.com/watch?v=QtF6KwMLdjc) | Ido Ziv, Kaltura | OpenSearchCon NA 2025 | From Chaos To Clarity: Centralizing Observability With OpenSearch at Scale - Ido Ziv, Kaltura Ever faced the challenge of fragmented observability practices, with multiple data sources, teams, and business needs? We managed to tackle this by transitioning to OpenSearch, leveraging its flexibility… |
+| [From LLM-as-a-Judge To Human-in-the-Loop: Rethinking Evaluat...](https://www.youtube.com/watch?v=kIvjiH8yJoU) | Eric Pugh & Fernando Rejon Barrera | OpenSearchCon NA 2025 | From LLM-as-a-Judge To Human-in-the-Loop: Rethinking Evaluation in RAG and Search With OpenSearch - Eric Pugh, OpenSource Connections & Fernando Rejon Barrera, Zeta Alpha Everyone’s using LLMs as judges. In this talk, we’ll explore techniques for LLM-as-a-judge evaluation in Retrieval-Augmented… |
+| [From Traces To Action: Auto-Instrumenting LLMs for Observability...](https://www.youtube.com/watch?v=__mfH72dYnk) | Aditya Soni & Anshika Tiwari | OpenSearchCon NA 2025 | From Traces To Action: Auto-Instrumenting LLMs for Observability With OpenTelemetry & OpenSearch - Aditya Soni, Forrester Research & Anshika Tiwari, Amazon Web Services Large Language Models (LLMs) power some of today’s most advanced AI applications-from chatbots to intelligent copilots-yet… |
+| [GenAIOps - OpenSearch for AI & GenAI Platform Observability](https://www.youtube.com/watch?v=qMheQkzBp08) | Ramesh Kumar Manickam & Rama Pabolu | OpenSearchCon NA 2025 | GenAIOps - OpenSearch for AI & GenAI Platform Observability - Ramesh Kumar Manickam & Rama Pabolu, Transunion As Organizations adopt and build out Internal Platforms and Applications that leverage Public and Enterprise GenAI Platforms, It becomes a key imperative to Solidify , Streamline and… |
+| [Implementing Piped Processing Language in OpenSearch Via Apache Calcite](https://www.youtube.com/watch?v=8X-4sqPIlyg) | Lantao Jin & Heng Qian | OpenSearchCon NA 2025 | Implementing Piped Processing Language in OpenSearch Via Apache Calcite - Lantao Jin & Heng Qian, Amazon Web Services Curious about OpenSearch's new Piped Processing Language (PPL) and its capabilities? Join us for an in-depth exploration of how OpenSearch leverages Apache Calcite to revolutionize… |
+| [Ingestion at Scale: Open Source Pipelines for Getting Data Into Open...- Anurag Gupta & Kevin Fallis](https://www.youtube.com/watch?v=lZFBI1lGk-E) |  | OpenSearchCon NA 2025 | Ingestion at Scale: Open Source Pipelines for Getting Data Into OpenSearch - Anurag Gupta, Chronosphere & Kevin Fallis, Amazon Web Services OpenSearch powers many critical use cases across analytics, observability, and security – However, OpenSearch is only as useful as the data you feed into it.… |
+| [Integrating Realtime User Behavioral Embeddings Into OpenSearch](https://www.youtube.com/watch?v=VAoFhODHqLQ) | Trey Grainger, Searchkernel | OpenSearchCon NA 2025 | Integrating Realtime User Behavioral Embeddings Into OpenSearch - Trey Grainger, Searchkernel With the rise of semantic search approaches using content-based embeddings, query intent models integrating user signals have been overlooked in recent years within search and RAG systems. This oversight… |
+| [Introducing OpenSearch’s Search Relevance Workbench!](https://www.youtube.com/watch?v=sk0QROv_44c) | Eric Pugh & Stavros Macrakis | OpenSearchCon NA 2025 | Introducing OpenSearch’s Search Relevance Workbench! - Eric Pugh, OpenSource Connections & Stavros Macrakis, Amazon Web Services This talk introduces you to OpenSearch’s integrated new capability to measure and enhance search quality: Search Relevance Workbench (SRW). We’ll introduce the mental… |
+| [Keynote: Beyond Vector Search: Building Ultra-Resilient GenAI Applications...](https://www.youtube.com/watch?v=TMPH6llaViY) | Karthik Ranganathan | OpenSearchCon NA 2025 | Keynote: Beyond Vector Search: Building Ultra-Resilient GenAI Applications with PostgreSQL-Compatible Architecture - Karthik Ranganathan, Co-Founder and Co-CEO, YugabyteDB As AI applications evolve from proof-of-concept to production scale, standalone vector databases and search solutions face… |
+| [Keynote: OpenSearch at Atlassian Scale](https://www.youtube.com/watch?v=T_OG4CziD9k) | Fernando Garcia Valenzuela | OpenSearchCon NA 2025 | Keynote: OpenSearch at Atlassian Scale - Fernando Garcia Valenzuela, Head of Engineering - Cloud Storage, Atlassian Cloud Storage Atlassian runs OpenSearch to service different scenarios for our hundreds of thousands of customers around the world. Join me to understand how Atlassian continues to… |
+| [Leveraging Digital Twins and OpenSearch for Personalized Customer Experiences](https://www.youtube.com/watch?v=L4oUfk_mkB8) | Satej Sahu | OpenSearchCon NA 2025 | Leveraging Digital Twins and OpenSearch for Personalized Customer Experiences - Satej Sahu, Zalando SE Leveraging Digital Twins and OpenSearch for Personalized Customer Experiences: Integrating Simulation Frameworks and Predictive Analytics Digital twins offer innovative solutions for digitalizing… |
+| [Mastering OpenSearch Benchmark: Advanced Techniques for Power Users](https://www.youtube.com/watch?v=pp036i11t00) | Govind Kamat & Rishabh Singh | OpenSearchCon NA 2025 | Mastering OpenSearch Benchmark: Advanced Techniques for Power Users - Govind Kamat & Rishabh Singh This presentation explores the advanced capabilities of OpenSearch Benchmark (OSB), moving beyond its basic functionality as a performance measurement tool. While OSB is widely recognized and utilized… |
+| [Mastering OpenSearch Snapshots: From Basics To Advanced Strategies](https://www.youtube.com/watch?v=ElmS0uFlAms) | Ashish Singh & Chaitanya KSR | OpenSearchCon NA 2025 | Mastering OpenSearch Snapshots: From Basics To Advanced Strategies - Ashish Singh & Chaitanya KSR, Amazon Web Services Discover how to leverage OpenSearch snapshot capabilities to build robust backup, recovery, and migration systems. This practical session covers the complete snapshot journey with… |
+| [OpenSearch Flow and Agent Frameworks: Easy AI](https://www.youtube.com/watch?v=NpEwmKzDHOc) | Jon Handler, Amazon Web Services | OpenSearchCon NA 2025 | OpenSearch Flow and Agent Frameworks: Easy AI - Jon Handler, Amazon Web Services In version 2.13, OpenSearch added the flow framework to help automate deploying and using Large Language Models (LLMs). As the feature has matured, it's made it even easier to use LLMs to improve search, and support… |
+| [OpenSearch and the Path to a Trillion-scale Vector Database](https://www.youtube.com/watch?v=NmKGjkb1MMs) | Vamshi Vijay Nakkirtha | OpenSearchCon NA 2025 | OpenSearch and the Path to a Trillion-scale Vector Database - Vamshi Vijay Nakkirtha, Amazon Web Services This presentation explores the evolution of OpenSearch to enable trillion-scale vector workloads. As organizations increasingly rely on vector search to deliver more powerful AI and machine… |
+| [Optimizing LLM Performance With Caching Strategies in OpenSearch](https://www.youtube.com/watch?v=-moExitOsDo) | ‪Uri Rosenberg‬‏ & Sherin Chandy | OpenSearchCon NA 2025 | Optimizing LLM Performance With Caching Strategies in OpenSearch - ‪Uri Rosenberg‬‏ & Sherin Chandy, Amazon Web Services As organizations increasingly integrate Large Language Models (LLMs) with OpenSearch, managing computational resources and costs becomes crucial. This session explores how… |
+| [Orchestrating Multimodal RAG With Agentic Workflows](https://www.youtube.com/watch?v=R-4mBoD-U3Q) | Bobby Mohammed & Surya Kari | OpenSearchCon NA 2025 | Orchestrating Multimodal RAG With Agentic Workflows - Bobby Mohammed & Surya Kari, Amazon Web Services Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for grounding large language models (LLMs) in external knowledge, enabling more accurate and contextually relevant… |
+| [Query Understanding With Large Language Models: Techniques and...](https://www.youtube.com/watch?v=oF-LYeTTjfE) | Hajer Bouafif & Cédric Pelvet | OpenSearchCon NA 2025 | Query Understanding With Large Language Models: Techniques and Optimizations in OpenSearch - Hajer Bouafif & Cédric Pelvet, Amazon Web Services This session presents a range of techniques that integrate Large Language Models (LLMs) with OpenSearch to enhance query understanding in search systems.… |
+| [Resilient Segment Replication With Adaptive Refresh](https://www.youtube.com/watch?v=LmHsVYUg5ao) | Vigya Sharma, Amazon Web Services | OpenSearchCon NA 2025 | Resilient Segment Replication With Adaptive Refresh - Vigya Sharma, Amazon Web Services Segment Replication is a powerful index replication strategy for high QPS systems that enables decoupling of indexing and search workloads, rapid replica failovers, and seamless point-in-time restores.… |
+| [The Imitation Game: Encapsulate Your OSB Workload at Scale](https://www.youtube.com/watch?v=LqUObTPY-CI) | Ian Hoang & Govind Kamat | OpenSearchCon NA 2025 | The Imitation Game: Encapsulate Your OSB Workload at Scale - Ian Hoang & Govind Kamat, Amazon Web Services While basic regression testing in OpenSearch is straightforward, accurately replicating production workloads for performance testing remains a significant challenge. When building custom… |
+| [Unconference: Self-optimizing deep research agents - Jakub Zavrel](https://www.youtube.com/watch?v=eJ-uoB7ZNTg) | Founder and CEO, Zeta Alpha | OpenSearchCon NA 2025 | Unconference: Self-optimizing deep research agents - Jakub Zavrel - Founder and CEO, Zeta Alpha Advanced AI agents allow us to build modular iterative reasoning patterns for complex tasks on private enterprise data, such as for example a Deep Research agent. In this talk we will outline the… |
+| [Unlocking GPU Powers for Vector Search: OpenSearch's New Frontier](https://www.youtube.com/watch?v=jt79rfvVnKk) | Navneet Verma & Jay Deng | OpenSearchCon NA 2025 | Unlocking GPU Powers for Vector Search: OpenSearch's New Frontier - Navneet Verma & Jay Deng, Amazon Web Services As vector datasets explode to billions of entries, traditional CPU-based indexing methods are hitting a wall. Talk explores revolutionary approach to supercharge OpenSearch Vector… |
+| [Use OpenSearch as Your Vector Search Database To Optimize GenAI Accuracy!](https://www.youtube.com/watch?v=7LSyizuc8Qk) | Anil Inamdar | OpenSearchCon NA 2025 | Use OpenSearch as Your Vector Search Database To Optimize GenAI Accuracy! - Anil Inamdar, NetApp Instaclustr Vector search capabilities are critical for reducing hallucinations and improving contextual understanding in generative AI systems. The good news for organizations already using OpenSearch?… |
+| [Using OpenSearch as a Database With DataFusion](https://www.youtube.com/watch?v=nkmbAsitXTo) | Marc Handalian & Michael Froh | OpenSearchCon NA 2025 | Using OpenSearch as a Database With DataFusion - Marc Handalian, Amazon Web Services & Michael Froh, Uber OpenSearch supports fast full-text, numeric range, and vector queries, but how does it compare to a relational database? In this talk, we explore integrating DataFusion with OpenSearch to add… |
+| [Vector Search Beyond the Hype: Real-World Implementation and Performance Insights](https://www.youtube.com/watch?v=rA-vyscOkKY) | Samuel Herman | OpenSearchCon NA 2025 | Vector Search Beyond the Hype: Real-World Implementation and Performance Insights - Samuel Herman, Datastax Vector search has emerged as a cornerstone technology in modern search applications, with numerous indexing technologies promising scalability and performance. However, the practical… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Security</summary>
+
+## Security
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Enhancing Security in OpenSearch With Dynamic Authentication Methods](https://www.youtube.com/watch?v=bbM339XNWvM) | Sakshi Nasha, Cohesity | OpenSearchCon Europe 2025 | Enhancing Security in OpenSearch With Dynamic Authentication Methods - Sakshi Nasha, Cohesity In this session, we will explore how to secure OpenSearch using dynamic authentication methods like SAS and STS tokens to provide temporary, granular access controls. These tokens enhance security by… |
+| [Securing Data With Cedar](https://www.youtube.com/watch?v=Mufc2p9yjNA) | Michael Schwartz, Gluu | OpenSearchCon NA 2025 | Securing Data With Cedar - Michael Schwartz, Gluu The fine-grained access control challenge is no longer just “who can access the database,” but "what data they should see once access is granted." In this talk, we introduce a new security plugin for OpenSearch that filters the Search API based on… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>UX & Product</summary>
+
+## UX & Product
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Powering up OpenSearch: A Journey of How OpenSearch Became Faster at Indexing](https://www.youtube.com/watch?v=Kz54YxwtWU8) | Mohit Godwani | OpenSearchCon Europe 2025 | Powering up OpenSearch: A Journey of How OpenSearch Became Faster at Indexing - Mohit Godwani, Amazon Since the inception of OpenSearch, the indexing capabilities of OpenSearch have evolved to become faster at parsing documents, handling inter node traffic, replicating documents, and creating more… |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
+<details>
+<summary>Vector & Hybrid Search</summary>
+
+## Vector & Hybrid Search
+
+| Title | Speakers | Conference | Summary |
+|---|---|---|---|
+| [Beyond Similar: Building Diverse Search With MMR](https://www.youtube.com/watch?v=rBcQLh77J_Y) | Joinal Ahmed, ntg & Nikhil Rana, Google Cloud | OpenSearchCon Europe 2025 | Beyond Similar: Building Diverse Search With MMR - Joinal Ahmed, ntg & Nikhil Rana, Google Cloud In the era of vector search and semantic similarity, returning highly relevant results is only half the battle. When search results are too similar, users must wade through redundant information to find… |
+| [Diving in the World of Vectors for Semantic Search with OpenSearch](https://www.youtube.com/watch?v=CCCzZFpdmQ0) | Parth Pandit & Amar Yashlaha | OpenSearchCon Europe 2025 | Diving in the World of Vectors for Semantic Search with OpenSearch - Parth Pandit & Amar Yashlaha, Amazon Web Services We are in a transformative technological era as generative AI applications are changing almost every user experience interfacing with software applications. For such AI… |
+| [How To Search 1 Billion Vectors in OpenSearch Without Losing Your Mind or... Fernando Rejon Barrera](https://www.youtube.com/watch?v=DF0LqNNFwpw) |  | OpenSearchCon Europe 2025 | How To Search 1 Billion Vectors in OpenSearch Without Losing Your Mind or Wallet - Fernando Rejon Barrera, Zeta Alpha Scaling vector search to a billion vectors isn’t just a technical challenge—it’s a high-stakes balancing act of latency, cost, and quality. In this talk, I’ll share practical… |
+| [Smarter Data, Smarter Decisions: Machine Learning Made Simple With OpenSearch](https://www.youtube.com/watch?v=ZKDgUVoYY4g) | Seema Saharan | OpenSearchCon Europe 2025 | Smarter Data, Smarter Decisions: Machine Learning Made Simple With OpenSearch - Seema Saharan, Autodesk Machine learning can feel complex, but what if it didn’t have to be? OpenSearch takes the power of ML and puts it right at your fingertips—no extra headaches required. From detecting anomalies in… |
+| [Observe Smarter, Not Harder: Scaling AI-Powered Observability With O... Aditya Soni & Anshika Tiwari](https://www.youtube.com/watch?v=MCXyqby0EdU) |  | OpenSearchCon India 2025 | Observe Smarter, Not Harder: Scaling AI-Powered Observability With OpenSearch - Aditya Soni, Forrester & Anshika Tiwari, AWS If you’re still manually sifting through logs to spot issues, it’s time to rethink your observability strategy. This session will show how AI-driven OpenSearch transforms… |
+| [Platformizing OpenSearch at Uber](https://www.youtube.com/watch?v=MbhcrywhFtw) | Anand Kotriwal & Aparajita Pandey, Uber | OpenSearchCon India 2025 | Platformizing OpenSearch at Uber - Anand Kotriwal & Aparajita Pandey, Uber At Uber, OpenSearch is a core component of our search infrastructure. We manage ~100 clusters across several thousands of nodes. We platformized OpenSearch to ensure scalability and reliability for Uber’s search needs. This… |
+| [Scaling Search and Powering Vector-Based Retrieval With OpenSea... Sesha Sendhil & Saikumar Payavula](https://www.youtube.com/watch?v=aL10VdFkLmI) |  | OpenSearchCon India 2025 | Scaling Search and Powering Vector-Based Retrieval With OpenSearch - Sesha Sendhil & Saikumar Payavula, Freshworks I’ll share how we built a highly available, multi-tenant, multi-AZ search platform using OpenSearch, supporting modern capabilities like vector search for semantic search. I’ll cover… |
+| [Why, What, When and How of Running Diff Types of Sear... Ramesh Kumar Manickam & Mohanraj Vanjiappan](https://www.youtube.com/watch?v=DAxQu-d0w38) |  | OpenSearchCon India 2025 | Why, What, When and How of Running Diff Types of Search Infra on Managed Vs Your Own OpenSearch - Ramesh Kumar Manickam & Mohanraj Vanjiappan, TransUnion Learn with examples the variety of OpenSearch driven - Vector, Neural, Conversational, Semantic and Multimodal Search and the difference to cost… |
+| [Budget Friendly Semantic Search With Neural Sparse Search](https://www.youtube.com/watch?v=kx71KFf-Nv0) | Aswath Srinivasan, OpenSearch @ AWS | OpenSearchCon Korea 2025 | Budget Friendly Semantic Search With Neural Sparse Search - Aswath Srinivasan, OpenSearch @ AWS This Level 300 technical session is for those Search teams using BM25 and wanting to implement Semantic Search but has a budget constraints due to large vertical node requirements for implementing KNN… |
+| [Beyond Single Vectors: Multi-Vector Search for Enhanced...](https://www.youtube.com/watch?v=5C9F0WR4PF8) | Praveen Mohan Prasad & Gene Alpert | OpenSearchCon NA 2025 | Beyond Single Vectors: Multi-Vector Search for Enhanced Relevance and Interpretability - Praveen Mohan Prasad & Gene Alpert, Amazon Web Services Vector search has significantly improved retrieval relevance by capturing semantic meaning beyond keywords. However, traditional single-vector models… |
+| [Capacity Planning, and Scaling/Optimization for Vector Workloads](https://www.youtube.com/watch?v=tjNqQ54u3Zc) | Jon Handler, Amazon Web Services | OpenSearchCon NA 2025 | Capacity Planning, and Scaling/Optimization for Vector Workloads - Jon Handler, Amazon Web Services With the advent of AI-powered search, OpenSearch's vector database has become a key component for more accurate search, and for ChatBots and AI Agents. If you want to adopt AI-powered search, you… |
+| [Keynote: Advancing Search and Observability at Uber with OpenSearch](https://www.youtube.com/watch?v=5HWNkxqTPME) | Shanshan Song, Uber | OpenSearchCon NA 2025 | Keynote: Advancing Search and Observability at Uber with OpenSearch - Shanshan Song, Senior Director of Engineering, Uber Search is a foundational pillar of Uber’s platform, powering critical user experiences across products like Uber Eats, where users navigate vast catalogs—over one million… |
+| [Repeatable Benchmarking: An Exploration of OpenSearch Vs Elasticsearch](https://www.youtube.com/watch?v=QF0eCS1xr8I) | Evan Downing, Trail of Bits | OpenSearchCon NA 2025 | Repeatable Benchmarking: An Exploration of OpenSearch Vs Elasticsearch - Evan Downing, Trail of Bits Ever wonder how OpenSearch and Elasticsearch compare in real-world performance scenarios? This talk presents findings from Trail of Bits' comprehensive benchmarking assessment of both engines across… |
+| [Unconference: Explainable Vector Search](https://www.youtube.com/watch?v=uG_qAMiY2Ao) | Praveen Mohad Prasad, Analytics Specialist, AWS | OpenSearchCon NA 2025 | Unconference: Explainable Vector Search - Praveen Mohad Prasad, Analytics Specialist, AWS Make vector search explainable with multi-vectors / late interaction models. Demo included. |
+
+<p align="right"><a href="#-talks-navigation">⬆️ Back to talks navigation</a></p>
+
+</details>
 
 
-## 🤝 Conferences & Meetups
+---
 
-* [OpensearchCon Europe 2025](https://events.linuxfoundation.org/opensearchcon-europe/) - 30 April – 1 May 2025 in Amsterdam, Netherlands
+## ⚙️ Useful Tools
+- [Pulse AI SRE for OpenSearch](https://pulse.support/): The AI-powered SRE and expert support platform for OpenSearch with intelligent recommendations, RCA, and 24/7 human support
+ OpenSearch management platform that gives you real-time monitoring and proactive insights for optimal cluster health and performance
+- [Pulse OpenSearch Tools for VS Code](https://pulse.support/tools/vscode-opensearch) — supercharge your OpenSearch dev workflow with autocomplete, linting, and integrated dashboards.
+- [OpenSearch Migration Scripts](https://github.com/aparo/elasticsearch-opensearch-migration-scripts): Scripts useful to migrate code/plugins from Elasticsearch to OpenSearch
+- Playgrounds: [General](https://playground.opensearch.org/app/home), [ML](https://ml.playground.opensearch.org/), [OpenTelemetry](https://otel.playground.opensearch.org/)
 
-
-## ⚙️ Tools
-
-* [Pulse](https://pulse.support/): The Opensearch management platform that gives you real-time monitoring and proactive insights for optimal cluster health and performance
-* [Opensearch Migration Scripts](https://github.com/aparo/elasticsearch-opensearch-migration-scripts): Scripts useful to migrate code/plugins from ElasticSearch to OpenSearch
-* Playgrounds: [General](https://playground.opensearch.org/app/home), [ML](https://ml.playground.opensearch.org/), [OpenTelemetry](https://otel.playground.opensearch.org/)
-
+---
 
 ## 📂 Articles & Resources
+- [Guide to migrating data from Elasticsearch to OpenSearch](https://bigdataboutique.com/blog/opensearch-data-migration-from-elasticsearch-the-guide-720536)
+- [How to optimize OpenSearch costs (video)](https://bigdataboutique.com/blog/opensearch-cost-optimization-unlock-hidden-savings-afa6f9)
+- [Choosing the k-NN algorithm](https://aws.amazon.com/blogs/big-data/choose-the-k-nn-algorithm-for-your-billion-scale-use-case-with-opensearch)
+- [Amazon OpenSearch Service’s vector database capabilities explained](https://aws.amazon.com/blogs/big-data/amazon-opensearch-services-vector-database-capabilities-explained/)
+- **Blogs**
+  - [The OpenSearch Blog](https://opensearch.org/blog/)
+  - [OpenSearch Project Roadmap 2024–2025](https://opensearch.org/blog/opensearch-project-roadmap-2024-2025/)
+  - [Amazon OpenSearch Blogs](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-elasticsearch-service/)
+    - [Amazon OpenSearch H1 2023 in review](https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-h1-2023-in-review/)
+    - [Amazon OpenSearch H2 2023 in review](https://aws.amazon.com/blogs/big-data/amazon-opensearch-h2-2023-in-review/)
 
-* [Guide to migrating data from Elasticsearch to Opensearch](https://bigdataboutique.com/blog/opensearch-data-migration-from-elasticsearch-the-guide-720536)
-* [How to optimize Opensearch costs (video)](https://bigdataboutique.com/blog/opensearch-cost-optimization-unlock-hidden-savings-afa6f9)
-* [Get started with ANN on OpenSearch](https://opensearch.org/docs/latest/search-plugins/knn/approximate-knn)
-* [k-NN Index Documentation](https://opensearch.org/docs/latest/search-plugins/knn/knn-index)
-* [The Opensearch Blog](https://opensearch.org/blog/)
-  * [Opensearch Project Roadmap 2024-2025](https://opensearch.org/blog/opensearch-project-roadmap-2024-2025/)
-* [Amazon Opensearch Blogs](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-elasticsearch-service/)
-  * [Amazon Opensearch H1 2023 in review](https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-h1-2023-in-review/)
-  * [Amazon Opensearch H2 2023 in review](https://aws.amazon.com/blogs/big-data/amazon-opensearch-h2-2023-in-review/)
-  * [Amazon OpenSearch Service’s vector database capabilities explained](https://aws.amazon.com/blogs/big-data/amazon-opensearch-services-vector-database-capabilities-explained/)
-  * [Choosing the k-NN algorithm](https://aws.amazon.com/blogs/big-data/choose-the-k-nn-algorithm-for-your-billion-scale-use-case-with-opensearch)
+---
 
-## 📚 Training and Tutorials
-* [The OpenSearch Project Video Library on YouTube](https://www.youtube.com/@OpenSearchProject/playlists)
-* [OpenSearch Tutorial for Data & Platform Engineers (Video, Free)](https://pulse.support/kb/opensearch-tutorial-data-platform-engineers)
-* [OpenSearch Training: ‘Think Like a Relevance Engineer’ – TLRE (Online, Paid)](https://opensourceconnections.com/training/opensearch-training-think-like-a-relevance-engineer-tlre/)
+## 📚 Training & Tutorials
+- [**OpenSearch Kubernetes Operator Tutorial Series** (YouTube Playlist)](https://youtube.com/playlist?list=PLa57i7wyk0qP67IDrx2K5nLUWLM_Bi3BO&si=Qo-_TQsxATYeoAkS) — get started running OpenSearch on Kubernetes.
+- [**OpenSearch Tutorial for Data & Platform Engineers**](https://pulse.support/kb/opensearch-tutorial-data-platform-engineers)  
+  Covers: Intro & Data Management Patterns, Cluster Architecture & Sizing, Internals, Monitoring with Pulse, Common Issues, and Kubernetes Operator Quickstart.
+- [**OpenSearch Knowledgebase and Guides**](https://pulse.support/kb/opensearch-documentation) — best practices, troubleshooting, and configuration reference.
+- [The OpenSearch Project Video Library on YouTube](https://www.youtube.com/@OpenSearchProject/playlists)
+- [OpenSearch Tutorial for Data & Platform Engineers (Free)](https://pulse.support/kb/opensearch-tutorial-data-platform-engineers)
+- [Training: “Think Like a Relevance Engineer” (Paid)](https://opensourceconnections.com/training/opensearch-training-think-like-a-relevance-engineer-tlre/)
 
-## 📂 Helpful Sections in the Documentation
+---
 
-* [Installation Quickstart](https://opensearch.org/docs/latest/getting-started/quickstart/)
-* [ElasticSearch 7.10 Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/index.html) - Some areas still aren't well-covered by the Opensearch documentation
-* [Index State Management](https://opensearch.org/docs/latest/im-plugin/ism/index/) - Mastering ISM is critical for many OpenSearch uses
-* [Data Streams](https://opensearch.org/docs/latest/im-plugin/data-streams/)
-* [Snapshots](https://opensearch.org/docs/latest/tuning-your-cluster/availability-and-recovery/snapshots/index/)
-* [Alerting](https://opensearch.org/docs/latest/observing-your-data/alerting/index/)
-* [Integrations](https://opensearch.org/docs/latest/integrations/)
-* [Get started with ANN on OpenSearch](https://opensearch.org/docs/latest/search-plugins/knn/approximate-knn)
-* [k-NN Index Documentation](https://opensearch.org/docs/latest/search-plugins/knn/knn-index)
-* [Trace Analytics - Getting Started](https://opensearch.org/docs/latest/observing-your-data/trace/getting-started/)
-* [Logstash](https://opensearch.org/docs/latest/tools/logstash/index/)
-* [Data Prepper](https://opensearch.org/docs/latest/data-prepper/)
-* [AWS Opensearch Developers Guide](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/)
-  * [Creating and Managing Domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html)
-  * [Configuration Changes](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html) - Includes causes for Blue/Green deployments
-  * [Registring a Manual Snapshot Repository](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-snapshot-registerdirectory.html)
-  * [SAML Authentication](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/saml.html)
-  * [Ultrawarm Storage](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ultrawarm.html)
-  * [Index State Management](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ism.html) - Covers some Managed-only features
-  * [Supported Operations](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/supported-operations.html)
+## 📂 Helpful Documentation Sections
+- [Installation Quickstart](https://opensearch.org/docs/latest/getting-started/quickstart/)
+- [Index State Management](https://opensearch.org/docs/latest/im-plugin/ism/index/)
+- [Data Streams](https://opensearch.org/docs/latest/im-plugin/data-streams/)
+- [Snapshots](https://opensearch.org/docs/latest/tuning-your-cluster/availability-and-recovery/snapshots/index/)
+- [Alerting](https://opensearch.org/docs/latest/observing-your-data/alerting/index/)
+- [Trace Analytics — Getting Started](https://opensearch.org/docs/latest/observing-your-data/trace/getting-started/)
+- [Logstash](https://opensearch.org/docs/latest/tools/logstash/index/)
+- [Data Prepper](https://opensearch.org/docs/latest/data-prepper/)
+- **AWS OpenSearch Developer Guide**
+  - [Creating and Managing Domains](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html)
+  - [Configuration Changes](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html)
+  - [Registering a Manual Snapshot Repository](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-snapshot-registerdirectory.html)
+  - [SAML Authentication](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/saml.html)
+  - [UltraWarm Storage](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ultrawarm.html)
+  - [Index State Management (AWS)](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ism.html)
+  - [Supported Operations](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/supported-operations.html)
+
+> Note: Some Elasticsearch 7.10 docs remain useful for background context but are omitted here to avoid confusion with OpenSearch–specific features.
+
+---
+
+## 🌍 OpenSearch Ambassadors
+
+Learn more about the [OpenSearch Ambassadors Program](https://opensearch.org/ambassadors/) — a global network of community builders, educators, and advocates helping to grow the OpenSearch ecosystem.
+
+| Ambassador | Organization | Role | Top Voices Interview |
+|-------------|---------------|------|----------------------|
+| **Amanda Katona** | NetApp Instaclustr | Director of Developer and Open Source Engagement | [Read Interview](https://pulse.support/top-voices/amanda-katona) |
+| **Charlie Hull** | The Search Juggler | Senior Consultant | [Read Interview](https://pulse.support/top-voices/charlie-hull) |
+| **Dotan Horovits** | Amazon Web Services | Senior Developer Advocate, Open Source Strategy & Marketing | — |
+| **Eric Pugh** | OpenSource Connections | Co-Founder | [Read Interview](https://pulse.support/top-voices/eric-pugh) |
+| **Itamar Syn-Hershko** | BigData Boutique + Pulse (AI SRE for OpenSearch) | Founder | — |
+| **Kassian Rosner Wren** | NetApp Instaclustr | Open Source Technology Advocate | — |
+| **Kris Freedain** | Amazon Web Services | Community Manager, OpenSearch Project & OpenSearch Software Foundation | — |
+| **Laysa Uchoa** | Nordcloud | Cloud Engineer | — |
+| **Nate Boot** | Amazon Web Services | Developer Advocate, OpenSearch | [Read Interview](https://pulse.support/top-voices/nate-boot) |
+| **Nils Bandener** | Eliatra | Freelance Software Architect | — |
+| **Sakshi Nasha** | Cohesity | Software Engineer | — |
+
+---
+
 
 ## 😊 Managed Services
-* [AWS Opensearch Service](https://aws.amazon.com/opensearch-service/)
-  * [Service Pricing](https://aws.amazon.com/opensearch-service/pricing/)
-* [Aiven for Opensearch](https://aiven.io/opensearch)
-* [Bonsai - Fully Managed Elasticsearch and Opensearch](https://bonsai.io/)
+- [AWS OpenSearch Service](https://aws.amazon.com/opensearch-service/) — [Pricing](https://aws.amazon.com/opensearch-service/pricing/)
+- [Aiven for OpenSearch](https://aiven.io/opensearch)
+- [Bonsai — Fully Managed Elasticsearch & OpenSearch](https://bonsai.io/)
 
+---
 
-# 🙏 Rules for Contributing 
+## 🙏 Contributing
+- Make sure you're sending something valuable that’s relevant to OpenSearch and interesting to the community
+- Please use spellcheck for your own contributions, and feel free to correct mistakes you find
+- To contribute, fork this repo, make your edits, and open a pull request
+- Feel free to create new sections if needed
+- Please do not group ++Add and --Remove changes in the same PR — send them as separate pull requests
+- Feel free to add a tasteful joke to your PR comments :-)
 
-* Make sure you're sending us something valuable that's relevant to Opensearch and interesting to the Opensearch community
-* Please use spellcheck for your own contributrions, and feel free to correct other mistakes you find
-* To contribute, fork this repo, make your edits, and open a pull request
-* Feel free to create new sections if needed
-* Please do not group ++Add and --Remove changes in same PR. You can send them as separate pull requests
-* Feel free to add a joke or similar to your PR comments :-) 
+---
+
+<p align="center">
+Maintained by <a href="https://bigdataboutique.com/">BigData Boutique</a> & <a href="https://pulse.support">Pulse</a> — making OpenSearch clusters faster, safer, and more reliable.
+</p>
